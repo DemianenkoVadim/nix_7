@@ -1,0 +1,1 @@
+call ant clean compile jar run
