@@ -1,8 +1,9 @@
-package ua.com.alevel.task_2;
+package ua.com.alevel.task2;
 
 import java.util.Arrays;
 
 public class SortingLetters {
+
     private static final int START_COUNT_LETTERS = 0;
     private static final int FIRST_ARRAY_INDEX = 0;
 

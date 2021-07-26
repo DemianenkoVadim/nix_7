@@ -1,6 +1,7 @@
-package ua.com.alevel.task_1;
+package ua.com.alevel.task1;
 
 public class SummationOfNumbers {
+
     private static final int VALUE_FIRST_NUMBER = 0;
     private static final int ONE_ARRAY_INDEX = 1;
     private static final int FIRST_ARRAY_INDEX = 0;

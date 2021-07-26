@@ -1,6 +1,7 @@
-package ua.com.alevel.task_3;
+package ua.com.alevel.task3;
 
 public enum Flag {
+
     IS_VALIDATE(false);
 
     private boolean state;

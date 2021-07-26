@@ -1,13 +1,14 @@
-package ua.com.alevel.task_3;
+package ua.com.alevel.task3;
 
 import ua.com.alevel.user_interfase.UserInterface;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static ua.com.alevel.task_3.Flag.IS_VALIDATE;
+import static ua.com.alevel.task3.Flag.IS_VALIDATE;
 
 public class ConsoleSchoolTimeTable {
+
     private static final int ZERO_LESSON = 0;
     private static final int LAST_LESSON = 11;
     private static final String YES = "Y";

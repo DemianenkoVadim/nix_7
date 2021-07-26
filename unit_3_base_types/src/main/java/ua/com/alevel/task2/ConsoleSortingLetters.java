@@ -1,10 +1,11 @@
-package ua.com.alevel.task_2;
+package ua.com.alevel.task2;
 
 import ua.com.alevel.user_interfase.UserInterface;
 
 import java.util.Scanner;
 
 public class ConsoleSortingLetters {
+
     private static final String YES = "Y";
     private static final String NO = "N";
     private static final String PROGRAM_DESCRIPTION = "Welcome to Task that counting letters in input string and than sort it";

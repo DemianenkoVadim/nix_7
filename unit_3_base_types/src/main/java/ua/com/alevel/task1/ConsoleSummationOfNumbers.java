@@ -1,10 +1,11 @@
-package ua.com.alevel.task_1;
+package ua.com.alevel.task1;
 
 import ua.com.alevel.user_interfase.UserInterface;
 
 import java.util.Scanner;
 
 public class ConsoleSummationOfNumbers {
+
     private static final String YES = "Y";
     private static final String NO = "N";
     private static final String DESCRIPTION_PROGRAM = "Welcome to Task that sums all the numbers in a input String";

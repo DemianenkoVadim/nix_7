@@ -1,13 +1,14 @@
 package ua.com.alevel.user_interfase;
 
-import ua.com.alevel.task_1.ConsoleSummationOfNumbers;
-import ua.com.alevel.task_2.ConsoleSortingLetters;
-import ua.com.alevel.task_3.ConsoleSchoolTimeTable;
+import ua.com.alevel.task1.ConsoleSummationOfNumbers;
+import ua.com.alevel.task2.ConsoleSortingLetters;
+import ua.com.alevel.task3.ConsoleSchoolTimeTable;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class UserInterface {
+
     private static final int CHOOSE_FIRST_PROGRAM = 1;
     private static final int CHOOSE_SECOND_PROGRAM = 2;
     private static final int CHOOSE_THIRD_PROGRAM = 3;

@@ -1,6 +1,7 @@
-package ua.com.alevel.task_3;
+package ua.com.alevel.task3;
 
 public class SchoolTimeTable {
+
     private static final int START_LESSONS_IN_HOURS = 9;
     private static final int LESSON_DURATION_IN_MINUTES = 45;
     private static final int SHORT_BREAK_MINUTES = 5;
