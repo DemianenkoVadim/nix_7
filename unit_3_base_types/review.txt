@@ -1,0 +1,11 @@
+глобально вопросов нет, но уже начинаю придираться)
+
+public class ConsoleSchoolTimeTable {
+    private static final int ZERO_LESSON = 0;
+
+    где отступ после { ???))
+
+ну и по поводу имен пакетов
+в java это bad practice использования _ в имени пакета
+
+оценка 9 из 10
