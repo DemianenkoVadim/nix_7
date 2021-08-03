@@ -12,6 +12,7 @@
         <module>unit_3_base_types</module>
         <module>unit_5_strings_lab</module>
         <module>unit_5_strings</module>
+        <module>unit_4_array</module>
     </modules>
 
     <properties>
