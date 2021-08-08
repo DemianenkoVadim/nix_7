@@ -13,6 +13,7 @@
         <module>unit_5_strings_lab</module>
         <module>unit_5_strings</module>
         <module>unit_4_array</module>
+        <module>module_1</module>
     </modules>
 
     <properties>
