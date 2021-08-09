@@ -10,7 +10,6 @@ public class DataRequest {
     private static final String USER_INPUT_LENGTH_OF_ARRAY = "Input Array size:";
     private static final String USER_INPUT_NUMBERS = "Enter your numbers ";
 
-
     public int printsARequestForDataEntryASizeAndNumbersOfArray() {
         System.out.println(USER_INPUT_LENGTH_OF_ARRAY);
         Scanner inputUser = new Scanner(System.in);

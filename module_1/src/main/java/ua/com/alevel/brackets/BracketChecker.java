@@ -1,6 +1,7 @@
 package ua.com.alevel.brackets;
 
 public class BracketChecker {
+
     public static final int FIRST_INDEX = 0;
     public static final char CURLY_OPENED_BRACE = '{';
     public static final char CURLY_CLOSED_BRACE = '}';
@@ -8,7 +9,6 @@ public class BracketChecker {
     public static final char SQUARE_CLOSED_BRACE = ']';
     public static final char OPENED_BRACE = '(';
     public static final char CLOSED_BRACE = ')';
-
 
     public void makeCheckOfBrackets(String userInput) {
         int lengthInput = userInput.length();

@@ -29,23 +29,19 @@ public class UserInterface {
                 case (1):
                     System.out.println(new DataRequest().printsARequestForDataEntryASizeAndNumbersOfArray());
                     break;
-
                 case (2):
                     ChessHorseStroke.createsCoordinatesVerticesOfTriangle();
-
                     break;
                 case (3): {
                     new Triangle().createsCoordinatesVerticesOfTriangle();
                 }
                 break;
-
                 case (4):
                     new InputDataRequest().printsARequestForDataEntryASizeAndNumbersOfArray();
                     break;
                 case (5):
                     new GameOfLife().startsTheProgram();
                     break;
-
                 case (6):
                     exit = true;
                     System.out.println("Bye");

@@ -1,6 +1,7 @@
 package ua.com.alevel.brackets;
 
 public class StackDataStructure {
+
     private final int[] stackDataStructureElements;
     private int headElementInStack;
     private static final int ONE_INDEX = -1;
