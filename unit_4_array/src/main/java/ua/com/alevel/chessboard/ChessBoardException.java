@@ -7,5 +7,4 @@ public class ChessBoardException extends RuntimeException {
     public ChessBoardException(String msg) {
         super(msg);
     }
-
 }

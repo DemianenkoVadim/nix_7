@@ -3,6 +3,7 @@ package ua.com.alevel.chessgame;
 import ua.com.alevel.chessboard.Location;
 
 public class ChessPosition {
+
     private final char vertical;
     private final int horizontal;
 

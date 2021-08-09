@@ -54,7 +54,6 @@ public class ChessGame {
     private final static String ERROR_MOVEMENT_CHOSEN_TARGET_POSITION = "The chosen CHESS FIGURE cant move to target position";
 
     public ChessGame() {
-
         chessDesk = new ChessBoard(NUMBER_OF_FIELDS_ON_THE_HORIZONTAL, NUMBER_OF_FIELDS_ON_THE_VERTICAL);
         queueOrder = FIRST_PLAYER;
         currentPlayer = SquareColorOnTheChessBoard.WHITE;
@@ -145,7 +144,6 @@ public class ChessGame {
     }
 
     public ChessStature replacesPromotedChessFigure(String type) {
-
         if (advancedChessFigure == null) {
             throw new IllegalStateException(ERROR_MOVEMENT_SECOND);
         }
