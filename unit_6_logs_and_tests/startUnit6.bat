@@ -1,2 +1,2 @@
-call start_test.bat
-call start_life.bat
+call .\startUnit6Test.bat
+call .\startUnnit6Life.bat
