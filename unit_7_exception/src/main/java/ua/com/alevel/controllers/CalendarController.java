@@ -297,7 +297,7 @@ public class CalendarController {
         }
     }
 
-    private static boolean checksIfTheMonthEntered(boolean isMonth, String[] split, int firstDelimiterInArray, int secondDelimiterInArray) {
+    private static boolean checksIfTheMonthEntered(boolean monthEntered, String[] split, int firstDelimiterInArray, int secondDelimiterInArray) {
         int day = Integer.parseInt(split[firstDelimiterInArray]);
         int year = Integer.parseInt(split[THIRD_DELIMITER_IN_ARRAY]);
         for (int separator = FIRST_ARRAY_INDEX; separator < NAME_OF_THE_MONTH.length; separator++) {
@@ -306,24 +306,24 @@ public class CalendarController {
                     for (String numberOfMonth : NUMBERS_FULL_MONTH) {
                         if (separator + ONE_INDEX == Integer.parseInt(numberOfMonth)) {
                             if (day <= COMMON_DAYS_IN_FULL_MONTH)
-                                isMonth = true;
+                                monthEntered = true;
                         }
                     }
                     for (String numberOfMonth : NUMBERS_SHORT_MONTH) {
                         if (separator + ONE_INDEX == Integer.parseInt(numberOfMonth)) {
                             if (day <= COMMON_DAYS_IN_SHORT_MONTH)
-                                isMonth = true;
+                                monthEntered = true;
                         }
                     }
                     if (split[secondDelimiterInArray].toLowerCase(Locale.ROOT).equals(FEBRUARY)) {
                         if (day == COMMON_DAYS_IN_FEBRUARY_LEAP_YEAR && (isLeapYear(year)))
-                            isMonth = true;
+                            monthEntered = true;
                         if (day <= COMMON_DAYS_IN_FEBRUARY_ASTRONOMICAL_YEAR)
-                            isMonth = true;
+                            monthEntered = true;
                     }
                 }
             }
         }
-        return !isMonth;
+        return !monthEntered;
     }
 }
