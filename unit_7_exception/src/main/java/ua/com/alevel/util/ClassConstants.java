@@ -107,8 +107,8 @@ public class ClassConstants {
     public static final String REQUEST_TO_INPUT_FIRST_DATE = "Enter your first date";
     public static final String REQUEST_TO_INPUT_SECOND_DATE = "Enter your second date";
     public static final String REQUEST_TO_INPUT_DATE = "Enter your date";
-    public static final String REQUEST_TO_ADD_DATE = "To add date press                  - PRESS 1";
-    public static final String REQUEST_TO_EXIT_THE_APPLICATION = "To exit application    - PRESS 0";
+    public static final String REQUEST_TO_ADD_DATE = "To add date press   - PRESS 1";
+    public static final String REQUEST_TO_EXIT_THE_APPLICATION = "To stop add date    - PRESS 0";
     public static final String REQUEST_INFORMATION_TO_ADD = "What parameter of date do you want to add ?";
     public static final String REQUEST_INFORMATION_TO_SUBTRACT = "What do you want to subtract ?";
     public static final String REQUEST_INFORMATION_T0_OUTPUT_FORMAT_DATA = "What format data you prefer";
