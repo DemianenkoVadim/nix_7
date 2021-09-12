@@ -1,10 +1,16 @@
 package ua.com.alevel.util;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import static ua.com.alevel.util.Constant.*;
 import static ua.com.alevel.util.RequestAndInformationMessages.printsMessageSetOutOfRange;
 import static ua.com.alevel.util.RequestAndInformationMessages.printsMessageWrongIndexes;
 
 public class MathSet<UserValues extends Number & Comparable<UserValues>> {
+
+    private static final Logger LOGGER_INFO = LoggerFactory.getLogger("info");
+    private static final Logger LOGGER_WARN = LoggerFactory.getLogger("warn");
 
     private UserValues[] numbers;
     private int sizeMathSet;
@@ -101,6 +107,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
             System.arraycopy(numbers, STARTING_POSITION_SOURCE_ARRAY, newNumbers, STARTING_POSITION_DESTINATION_DATA, numbers.length);
             numbers = newNumbers;
         }
+        LOGGER_INFO.info("Add userValue number");
         if (!checksUniquenessOfValue(number)) {
             numbers[sizeMathSet] = number;
             sizeMathSet++;
@@ -116,12 +123,14 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
             System.arraycopy(numbers, STARTING_POSITION_SOURCE_ARRAY, newNumbers, STARTING_POSITION_DESTINATION_DATA, numbers.length);
             numbers = newNumbers;
         }
+        LOGGER_INFO.info("Add UserValues... number");
         for (UserValues userValues : number) {
             add(userValues);
         }
     }
 
     public void removeDuplicateValues() {
+        LOGGER_INFO.info("Remove duplicate values");
         for (int oneCheckingElement = FIRST_INDEX_ELEMENT; oneCheckingElement < sizeMathSet; oneCheckingElement++)
             for (int anotherOneCheckingElement = FIRST_INDEX_ELEMENT; anotherOneCheckingElement < sizeMathSet; anotherOneCheckingElement++)
                 if (oneCheckingElement != anotherOneCheckingElement) {
@@ -133,6 +142,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public boolean checksUniquenessOfValue(UserValues value) {
+        LOGGER_INFO.info("Checks unique values");
         for (int userInputValue = FIRST_INDEX_ELEMENT; userInputValue < sizeMathSet; userInputValue++)
             if (numbers[userInputValue].equals(value)) {
                 return true;
@@ -148,6 +158,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
             System.arraycopy(numbers, STARTING_POSITION_SOURCE_ARRAY, newNumbers, STARTING_POSITION_DESTINATION_DATA, numbers.length);
             numbers = newNumbers;
         }
+        LOGGER_INFO.info("Join MathSet ms");
         for (int mathSetValue = FIRST_INDEX_ELEMENT; mathSetValue < ms.getSizeMathSet(); mathSetValue++) {
             numbers[sizeMathSet] = (UserValues) ms.get(mathSetValue);
             sizeMathSet++;
@@ -158,6 +169,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
 
     @SuppressWarnings("unchecked")
     public void join(MathSet... ms) {
+        LOGGER_INFO.info("Join MathSet... ms");
         int lengthMathSet = ORIGINAL_LENGTH_MATH_SET;
         for (MathSet value : ms) {
             lengthMathSet = lengthMathSet + value.getSizeMathSet();
@@ -174,6 +186,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
                 sizeMathSet++;
             }
         }
+        LOGGER_WARN.warn("Remove duplicate value");
         removeDuplicateValues();
         sortAsc();
     }
@@ -186,6 +199,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
             System.arraycopy(numbers, STARTING_POSITION_SOURCE_ARRAY, newNumbers, STARTING_POSITION_DESTINATION_DATA, numbers.length);
             numbers = newNumbers;
         }
+        LOGGER_INFO.info("Intersection MathSet ms");
         UserValues[] intersectionNumbers = (UserValues[]) new Number[capacity];
         int enumerator = START_ZERO_POINT;
         for (int oneMathSetValue = FIRST_INDEX_ELEMENT; oneMathSetValue < sizeMathSet; oneMathSetValue++) {
@@ -202,12 +216,14 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void intersection(MathSet... ms) {
+        LOGGER_INFO.info("Intersection MathSet... ms");
         for (MathSet mathSetValue : ms) {
             intersection(mathSetValue);
         }
     }
 
     public UserValues getMax() {
+        LOGGER_INFO.info("Getting max value");
         UserValues maxNumber = numbers[FIRST_ELEMENT_IN_ARRAY];
         for (int mathSetValue = FIRST_INDEX_ELEMENT; mathSetValue < sizeMathSet; mathSetValue++) {
             if (numbers[mathSetValue].compareTo(maxNumber) > ZERO) {
@@ -218,6 +234,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public UserValues getMin() {
+        LOGGER_INFO.info("Getting min value");
         UserValues maxNumber = numbers[FIRST_ELEMENT_IN_ARRAY];
         for (int mathSetValue = FIRST_INDEX_ELEMENT; mathSetValue < sizeMathSet; mathSetValue++) {
             if (numbers[mathSetValue].compareTo(maxNumber) < ZERO) {
@@ -228,6 +245,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortAsc() {
+        LOGGER_INFO.info("Ascending sorting set");
         int anotherOneComparedValue;
         for (anotherOneComparedValue = SECOND_VALUE_IN_ARRAY; anotherOneComparedValue < sizeMathSet; anotherOneComparedValue++) {
             comparesValuesForSortAsc(anotherOneComparedValue, ZERO);
@@ -235,6 +253,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     private void comparesValuesForSortAsc(int anotherOneComparedValue, int zero) {
+        LOGGER_INFO.info("Compares two both values");
         UserValues temporaryValues;
         int oneComperedValue;
         temporaryValues = numbers[anotherOneComparedValue];
@@ -247,6 +266,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortAsc(int firstIndex, int lastIndex) {
+        LOGGER_INFO.info("Ascending sorting between two indexes");
         if (firstIndex >= sizeMathSet || lastIndex >= sizeMathSet || firstIndex < ZERO || lastIndex < ZERO || firstIndex > lastIndex) {
             printsMessageWrongIndexes();
         } else {
@@ -258,6 +278,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortAsc(UserValues value) {
+        LOGGER_INFO.info("Ascending sorting from value");
         int setValue = checksSetIncludesValue(value);
         if (setValue == SET_DOESNT_INCLUDE_VALUE) {
             printsMessageSetOutOfRange();
@@ -270,6 +291,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortDesc() {
+        LOGGER_INFO.info("Descending sorting set");
         int anotherOneComparableValue;
         for (anotherOneComparableValue = ONE_ELEMENT_IN_ARRAY; anotherOneComparableValue < sizeMathSet; anotherOneComparableValue++) {
             comparesValuesForSortDesc(ZERO, anotherOneComparableValue);
@@ -277,6 +299,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortDesc(int firstIndex, int lastIndex) {
+        LOGGER_INFO.info("Descending sorting set between two indexes");
         if (firstIndex >= sizeMathSet || lastIndex >= sizeMathSet || firstIndex < ZERO || lastIndex < ZERO || firstIndex > lastIndex) {
             printsMessageWrongIndexes();
         } else {
@@ -288,6 +311,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void sortDesc(UserValues value) {
+        LOGGER_INFO.info("Descending sorting from value");
         int setValue = checksSetIncludesValue(value);
         if (setValue == SET_DOESNT_INCLUDE_VALUE) {
             printsMessageSetOutOfRange();
@@ -300,6 +324,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     private void comparesValuesForSortDesc(int index, int anotherOneComparableValue) {
+        LOGGER_INFO.info("Compares values for sort by descending");
         UserValues temporaryValueForCompared;
         int oneComparableValue;
         temporaryValueForCompared = numbers[anotherOneComparableValue];
@@ -312,6 +337,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public Double getAverage() {
+        LOGGER_INFO.info("Getting average");
         double sumOfDigits = DEFAULT_SUM_NUMBERS;
         double numberOfDigits = DEFAULT_AMOUNT_NUMBERS;
         for (int mathSetValues = FIRST_ELEMENT_IN_ARRAY; mathSetValues < sizeMathSet; mathSetValues++) {
@@ -322,7 +348,9 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public Integer getMedian() {
+        LOGGER_INFO.info("Ascending sort set");
         sortAsc();
+        LOGGER_INFO.info("Getting median");
         if (sizeMathSet % HALVING == NO_REMAINDER) {
             return ((Integer) numbers[(sizeMathSet / HALVING) - ONE_ELEMENT_IN_ARRAY] + (Integer) numbers[sizeMathSet / HALVING]) / HALVING;
         } else {
@@ -332,6 +360,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
 
     @SuppressWarnings("unchecked")
     public Number[] toArray() {
+        LOGGER_INFO.info("To  array");
         UserValues[] numbersArray = (UserValues[]) new Number[sizeMathSet];
         System.arraycopy(numbers, STARTING_POSITION_SOURCE_ARRAY, numbersArray, STARTING_POSITION_DESTINATION_DATA, sizeMathSet);
         return numbersArray;
@@ -339,13 +368,14 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
 
     @SuppressWarnings("unchecked")
     public Number[] toArray(int firstIndex, int lastIndex) {
+        LOGGER_INFO.info("To array between two indexes");
         UserValues[] numbersArray = (UserValues[]) new Number[FIRST_ELEMENT_IN_ARRAY];
         if (firstIndex >= sizeMathSet || lastIndex >= sizeMathSet || firstIndex < ZERO || lastIndex < ZERO || firstIndex > lastIndex) {
             return numbersArray;
         } else {
             numbersArray = (UserValues[]) new Number[lastIndex - firstIndex];
-            for (int i = firstIndex, k = 0; i < lastIndex; i++, k++) {
-                numbersArray[k] = numbers[i];
+            for (int value = firstIndex, element = FIRST_INDEX_ELEMENT; value < lastIndex; value++, element++) {
+                numbersArray[element] = numbers[value];
             }
         }
         return numbersArray;
@@ -353,6 +383,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
 
     @SuppressWarnings("unchecked")
     public MathSet cut(int firstIndex, int lastIndex) {
+        LOGGER_WARN.warn("Cutting from set");
         MathSet clippedMathSet = new MathSet();
         if (firstIndex >= sizeMathSet || lastIndex >= sizeMathSet || firstIndex < ZERO || lastIndex < ZERO || firstIndex > lastIndex) {
             return clippedMathSet;
@@ -367,12 +398,14 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
 
     @SuppressWarnings("unchecked")
     public void clear() {
+        LOGGER_INFO.info("Clear full set");
         capacity = CAPACITY_SIZE_MATH_SET_EQUALS_TEN;
         numbers = (UserValues[]) new Number[capacity];
         sizeMathSet = EMPTY_MATH_SET;
     }
 
     public void clear(UserValues[] number) {
+        LOGGER_INFO.info("Clear numbers from set");
         for (int userInputValue = FIRST_INDEX_ELEMENT; userInputValue < sizeMathSet; userInputValue++) {
             for (UserValues value : number) {
                 if (numbers[userInputValue].equals(value)) {
@@ -383,6 +416,7 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public void deleteValue(UserValues value) {
+        LOGGER_WARN.warn("Delete value");
         int userValue;
         for (userValue = FIRST_INDEX_ELEMENT; userValue < sizeMathSet; userValue++) {
             if (numbers[userValue].equals(value)) {
@@ -402,10 +436,12 @@ public class MathSet<UserValues extends Number & Comparable<UserValues>> {
     }
 
     public boolean checksForTheExistenceOfValue() {
+        LOGGER_INFO.info("Checking existence of value ");
         return sizeMathSet == EMPTY_MATH_SET;
     }
 
     public int checksSetIncludesValue(UserValues value) {
+        LOGGER_INFO.info("Checking includes value");
         for (int userValue = FIRST_INDEX_ELEMENT; userValue < sizeMathSet; userValue++) {
             if (numbers[userValue].equals(value)) {
                 return userValue;

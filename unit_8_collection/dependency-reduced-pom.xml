@@ -117,10 +117,8 @@
     <commons.codec.version>1.11</commons.codec.version>
     <maven.compiler.source>11</maven.compiler.source>
     <logs.test.folder>test_logs</logs.test.folder>
-    <reflections.version>0.9.12</reflections.version>
     <junit.jupiter.version>5.7.0</junit.jupiter.version>
     <maven.shade.plugin.version>3.2.0</maven.shade.plugin.version>
-    <lombok.version>1.18.20</lombok.version>
     <maven.compiler.target>11</maven.compiler.target>
     <logs.folder>logs</logs.folder>
     <slf4j.version>1.7.30</slf4j.version>
