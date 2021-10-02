@@ -1,0 +1,9 @@
+{
+"Film":{
+"id":-1300192202,
+"title":"qre",
+"genre":"Comedy",
+"durationOfMovie":31,
+"idActors":[1994174801, 127747142, -253883617],
+"hasOneActor":False
+}}

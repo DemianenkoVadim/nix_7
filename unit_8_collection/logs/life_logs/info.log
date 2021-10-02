@@ -1,0 +1,257 @@
+09:10:25.545 [main] INFO  info - Remove duplicate values
+09:10:25.558 [main] INFO  info - Ascending sorting set
+09:10:25.558 [main] INFO  info - Compares two both values
+09:10:25.558 [main] INFO  info - Compares two both values
+09:10:25.559 [main] INFO  info - Compares two both values
+09:10:25.559 [main] INFO  info - Compares two both values
+09:10:25.559 [main] INFO  info - Compares two both values
+09:10:25.564 [main] INFO  info - Remove duplicate values
+09:10:25.564 [main] INFO  info - Descending sorting from value
+09:10:25.564 [main] INFO  info - Checking includes value
+09:10:25.564 [main] INFO  info - Compares values for sort by descending
+09:10:25.564 [main] INFO  info - Compares values for sort by descending
+09:10:25.565 [main] INFO  info - Compares values for sort by descending
+09:10:25.565 [main] INFO  info - Compares values for sort by descending
+09:10:25.565 [main] INFO  info - Compares values for sort by descending
+09:10:25.565 [main] INFO  info - Remove duplicate values
+09:10:25.565 [main] INFO  info - Descending sorting set
+09:10:25.565 [main] INFO  info - Compares values for sort by descending
+09:10:25.565 [main] INFO  info - Compares values for sort by descending
+09:10:25.566 [main] INFO  info - Compares values for sort by descending
+09:10:25.566 [main] INFO  info - Compares values for sort by descending
+09:10:25.566 [main] INFO  info - Compares values for sort by descending
+09:10:46.993 [main] INFO  info - Remove duplicate values
+09:10:46.995 [main] INFO  info - Descending sorting set
+09:10:46.995 [main] INFO  info - Compares values for sort by descending
+09:10:46.995 [main] INFO  info - Compares values for sort by descending
+09:10:46.995 [main] INFO  info - Compares values for sort by descending
+09:10:46.995 [main] INFO  info - Compares values for sort by descending
+09:10:46.995 [main] INFO  info - Compares values for sort by descending
+09:10:56.954 [main] INFO  info - Remove duplicate values
+09:10:56.956 [main] INFO  info - Ascending sorting set
+09:10:56.956 [main] INFO  info - Compares two both values
+09:10:56.956 [main] INFO  info - Compares two both values
+09:10:56.956 [main] INFO  info - Compares two both values
+09:10:56.956 [main] INFO  info - Compares two both values
+09:10:56.957 [main] INFO  info - Compares two both values
+09:10:56.960 [main] INFO  info - Remove duplicate values
+09:10:56.961 [main] INFO  info - Descending sorting from value
+09:10:56.961 [main] INFO  info - Checking includes value
+09:10:56.961 [main] INFO  info - Compares values for sort by descending
+09:10:56.961 [main] INFO  info - Compares values for sort by descending
+09:10:56.961 [main] INFO  info - Compares values for sort by descending
+09:10:56.961 [main] INFO  info - Compares values for sort by descending
+09:10:56.961 [main] INFO  info - Compares values for sort by descending
+09:10:56.961 [main] INFO  info - Remove duplicate values
+09:10:56.962 [main] INFO  info - Descending sorting set
+09:10:56.962 [main] INFO  info - Compares values for sort by descending
+09:10:56.962 [main] INFO  info - Compares values for sort by descending
+09:10:56.962 [main] INFO  info - Compares values for sort by descending
+09:10:56.962 [main] INFO  info - Compares values for sort by descending
+09:10:56.962 [main] INFO  info - Compares values for sort by descending
+09:21:06.658 [main] INFO  info - Remove duplicate values
+09:21:06.660 [main] INFO  info - Getting average
+09:22:42.771 [main] INFO  info - Remove duplicate values
+09:22:42.774 [main] INFO  info - Getting average
+09:23:54.294 [main] INFO  info - Remove duplicate values
+09:23:54.297 [main] INFO  info - Ascending sort set
+09:23:54.297 [main] INFO  info - Ascending sorting set
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Compares two both values
+09:23:54.297 [main] INFO  info - Getting median
+09:24:02.852 [main] INFO  info - Remove duplicate values
+09:24:02.855 [main] INFO  info - Ascending sort set
+09:24:02.855 [main] INFO  info - Ascending sorting set
+09:24:02.855 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Compares two both values
+09:24:02.856 [main] INFO  info - Getting median
+09:29:25.389 [main] INFO  info - Remove duplicate values
+09:29:25.393 [main] INFO  info - Getting max value
+09:29:56.048 [main] INFO  info - Remove duplicate values
+09:29:56.050 [main] INFO  info - Getting min value
+10:03:29.575 [main] INFO  info - Remove duplicate values
+10:03:29.578 [main] INFO  info - Add userValue number
+10:03:29.578 [main] INFO  info - Checks unique values
+10:03:29.578 [main] INFO  info - Add userValue number
+10:03:29.578 [main] INFO  info - Checks unique values
+10:03:29.578 [main] INFO  info - Remove duplicate values
+10:05:26.669 [main] INFO  info - Remove duplicate values
+10:05:26.671 [main] INFO  info - Add userValue number
+10:05:26.671 [main] INFO  info - Checks unique values
+10:05:26.671 [main] INFO  info - Remove duplicate values
+10:07:13.420 [main] INFO  info - Remove duplicate values
+10:07:13.423 [main] INFO  info - Add userValue number
+10:07:13.423 [main] INFO  info - Checks unique values
+10:07:45.157 [main] INFO  info - Remove duplicate values
+10:07:45.159 [main] INFO  info - Add userValue number
+10:07:45.159 [main] INFO  info - Checks unique values
+10:08:17.754 [main] INFO  info - Remove duplicate values
+10:08:17.756 [main] INFO  info - Add userValue number
+10:08:17.756 [main] INFO  info - Checks unique values
+10:14:35.015 [main] INFO  info - Remove duplicate values
+10:14:35.018 [main] INFO  info - Remove duplicate values
+10:14:35.018 [main] INFO  info - Join MathSet ms
+10:14:35.018 [main] INFO  info - Remove duplicate values
+10:14:35.018 [main] INFO  info - Ascending sorting set
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:35.018 [main] INFO  info - Compares two both values
+10:14:50.477 [main] INFO  info - Remove duplicate values
+10:14:50.480 [main] INFO  info - Remove duplicate values
+10:14:50.480 [main] INFO  info - Join MathSet ms
+10:14:50.480 [main] INFO  info - Remove duplicate values
+10:14:50.480 [main] INFO  info - Ascending sorting set
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:14:50.480 [main] INFO  info - Compares two both values
+10:15:02.155 [main] INFO  info - Remove duplicate values
+10:15:02.157 [main] INFO  info - Remove duplicate values
+10:15:02.157 [main] INFO  info - Join MathSet ms
+10:15:02.157 [main] INFO  info - Remove duplicate values
+10:15:02.157 [main] INFO  info - Ascending sorting set
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:15:02.158 [main] INFO  info - Compares two both values
+10:16:02.317 [main] INFO  info - Remove duplicate values
+10:16:02.319 [main] INFO  info - Remove duplicate values
+10:16:02.319 [main] INFO  info - Join MathSet ms
+10:16:02.319 [main] INFO  info - Remove duplicate values
+10:16:02.319 [main] INFO  info - Ascending sorting set
+10:16:02.319 [main] INFO  info - Compares two both values
+10:16:02.319 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:16:02.320 [main] INFO  info - Compares two both values
+10:21:44.685 [main] INFO  info - Remove duplicate values
+10:21:44.695 [main] INFO  info - Add userValue number
+10:21:44.695 [main] INFO  info - Checks unique values
+10:21:44.695 [main] INFO  info - Add userValue number
+10:21:44.695 [main] INFO  info - Checks unique values
+10:22:02.127 [main] INFO  info - Remove duplicate values
+10:22:02.130 [main] INFO  info - Add userValue number
+10:22:02.130 [main] INFO  info - Checks unique values
+10:22:02.130 [main] INFO  info - Add userValue number
+10:22:02.130 [main] INFO  info - Checks unique values
+10:23:56.272 [main] INFO  info - Remove duplicate values
+10:23:56.275 [main] INFO  info - Remove duplicate values
+10:23:56.275 [main] INFO  info - Join MathSet ms
+10:23:56.275 [main] INFO  info - Remove duplicate values
+10:23:56.275 [main] INFO  info - Ascending sorting set
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.275 [main] INFO  info - Compares two both values
+10:23:56.279 [main] INFO  info - Remove duplicate values
+10:23:56.279 [main] INFO  info - Add userValue number
+10:23:56.279 [main] INFO  info - Checks unique values
+10:23:56.280 [main] INFO  info - Remove duplicate values
+10:23:56.280 [main] INFO  info - Getting min value
+10:23:56.283 [main] INFO  info - Remove duplicate values
+10:23:56.283 [main] INFO  info - Ascending sorting set
+10:23:56.283 [main] INFO  info - Compares two both values
+10:23:56.283 [main] INFO  info - Compares two both values
+10:23:56.283 [main] INFO  info - Compares two both values
+10:23:56.283 [main] INFO  info - Compares two both values
+10:23:56.283 [main] INFO  info - Compares two both values
+10:23:56.284 [main] INFO  info - Remove duplicate values
+10:23:56.285 [main] INFO  info - Descending sorting from value
+10:23:56.285 [main] INFO  info - Checking includes value
+10:23:56.285 [main] INFO  info - Compares values for sort by descending
+10:23:56.285 [main] INFO  info - Compares values for sort by descending
+10:23:56.285 [main] INFO  info - Compares values for sort by descending
+10:23:56.285 [main] INFO  info - Compares values for sort by descending
+10:23:56.285 [main] INFO  info - Compares values for sort by descending
+10:23:56.286 [main] INFO  info - Remove duplicate values
+10:23:56.286 [main] INFO  info - Remove duplicate values
+10:23:56.286 [main] INFO  info - Join MathSet ms
+10:23:56.286 [main] INFO  info - Remove duplicate values
+10:23:56.286 [main] INFO  info - Ascending sorting set
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.286 [main] INFO  info - Compares two both values
+10:23:56.287 [main] INFO  info - Remove duplicate values
+10:23:56.287 [main] INFO  info - Getting max value
+10:23:56.287 [main] INFO  info - Remove duplicate values
+10:23:56.287 [main] INFO  info - Descending sorting set
+10:23:56.287 [main] INFO  info - Compares values for sort by descending
+10:23:56.287 [main] INFO  info - Compares values for sort by descending
+10:23:56.287 [main] INFO  info - Compares values for sort by descending
+10:23:56.287 [main] INFO  info - Compares values for sort by descending
+10:23:56.287 [main] INFO  info - Compares values for sort by descending
+10:23:56.288 [main] INFO  info - Remove duplicate values
+10:23:56.288 [main] INFO  info - Getting average
+10:23:56.290 [main] INFO  info - Remove duplicate values
+10:23:56.291 [main] INFO  info - Ascending sort set
+10:23:56.291 [main] INFO  info - Ascending sorting set
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Compares two both values
+10:23:56.291 [main] INFO  info - Getting median
+10:23:56.291 [main] INFO  info - Remove duplicate values
+10:23:56.291 [main] INFO  info - Add userValue number
+10:23:56.291 [main] INFO  info - Checks unique values
+10:23:56.291 [main] INFO  info - Add userValue number
+10:23:56.291 [main] INFO  info - Checks unique values
+10:23:56.292 [main] INFO  info - Remove duplicate values
