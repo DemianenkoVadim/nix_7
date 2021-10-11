@@ -1,0 +1,16 @@
+id,firstName,lastName,birthday,utilityCoefficient,isAvailable
+1,Alison,Becker,1988-07-21 12:30,8.8,true
+2,Virgil,VanDijk,1986-03-21 11:30,8.9,true
+3,Alexander,Arnold,1988-11-11 10:30,8.6,true
+4,Nathaniel,Phillips,1988-01-22 14:30,8.5,true
+5,Joe,Gomez,1990-06-12 12:34,8.6,true
+6,Naby,Keita,1991-05-23 11:31,8.3,true
+7,Jordan,Henderson,1988-04-21 12:40,8.7,true
+8,James,Milner,1989-01-22 12:40,8.8,true
+9,Thiago,Alcantara,1987-02-14 12:20,8.5,true
+10,Sadio,Mane,1988-12-11 12:10,8.5,true
+11,Mohamed,Salah,1982-11-11 16:30,8.4,true
+12,Roberto,Firmino,1987-02-11 17:30,8.5,false
+13,Diago,Jota,1989-07-18 18:30,8.9,false
+14,Ben,Davies,1999-03-19 19:30,8.1,false
+15,Rhys,Williams,1998-06-12 11:30,8.0,false
