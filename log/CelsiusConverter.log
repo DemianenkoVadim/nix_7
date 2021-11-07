@@ -1,0 +1,1571 @@
+2021-11-07 15:27:01,760 DEBUG o.j.l.LoggerProviders [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-11-07 15:27:01,769 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-11-07 15:27:01,771 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-11-07 15:27:01,774 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-11-07 15:27:01,815 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.14.Final
+2021-11-07 15:27:01,816 DEBUG o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2021-11-07 15:27:01,960 DEBUG o.h.b.j.i.s.LocalXmlResourceResolver [main] Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2021-11-07 15:27:01,961 DEBUG o.h.b.j.i.s.LocalXmlResourceResolver [main] Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2021-11-07 15:27:01,966 DEBUG o.h.b.c.i.JaxbCfgProcessor [main] cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2021-11-07 15:27:02,179 DEBUG o.h.c.Configuration [main] Building session factory using internal StandardServiceRegistryBuilder
+2021-11-07 15:27:02,184 DEBUG o.h.s.s.ServiceBinding [main] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-11-07 15:27:02,185 DEBUG o.h.c.Configuration [main] Building session factory using provided StandardServiceRegistry
+2021-11-07 15:27:02,195 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-11-07 15:27:02,196 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-11-07 15:27:02,213 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-11-07 15:27:02,281 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@3956b302
+2021-11-07 15:27:02,281 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@3956b302
+2021-11-07 15:27:02,282 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3956b302
+2021-11-07 15:27:02,282 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@29d334c
+2021-11-07 15:27:02,283 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@cd7f1ae
+2021-11-07 15:27:02,284 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@3569edd5
+2021-11-07 15:27:02,285 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@430fa4ef
+2021-11-07 15:27:02,285 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@430fa4ef
+2021-11-07 15:27:02,285 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@430fa4ef
+2021-11-07 15:27:02,286 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@19f21b6b
+2021-11-07 15:27:02,286 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@19f21b6b
+2021-11-07 15:27:02,286 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@19f21b6b
+2021-11-07 15:27:02,287 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@2bfeb1ef
+2021-11-07 15:27:02,287 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@2bfeb1ef
+2021-11-07 15:27:02,290 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2bfeb1ef
+2021-11-07 15:27:02,292 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@907f2b7
+2021-11-07 15:27:02,292 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@907f2b7
+2021-11-07 15:27:02,292 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@907f2b7
+2021-11-07 15:27:02,293 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@304b9f1a
+2021-11-07 15:27:02,293 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@304b9f1a
+2021-11-07 15:27:02,293 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@304b9f1a
+2021-11-07 15:27:02,294 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@62315f22
+2021-11-07 15:27:02,295 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@62315f22
+2021-11-07 15:27:02,295 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@62315f22
+2021-11-07 15:27:02,296 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@7f4037ed
+2021-11-07 15:27:02,296 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@7f4037ed
+2021-11-07 15:27:02,296 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7f4037ed
+2021-11-07 15:27:02,297 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1ad926d3
+2021-11-07 15:27:02,297 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1ad926d3
+2021-11-07 15:27:02,298 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@68105edc
+2021-11-07 15:27:02,299 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@68105edc
+2021-11-07 15:27:02,300 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@452c8a40
+2021-11-07 15:27:02,300 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@452c8a40
+2021-11-07 15:27:02,301 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@66d57c1b
+2021-11-07 15:27:02,302 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@53b98ff6
+2021-11-07 15:27:02,302 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@7dcc91fd
+2021-11-07 15:27:02,303 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@7dcc91fd
+2021-11-07 15:27:02,304 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@5f8890c2
+2021-11-07 15:27:02,304 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5f8890c2
+2021-11-07 15:27:02,308 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@111610e6
+2021-11-07 15:27:02,308 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@111610e6
+2021-11-07 15:27:02,309 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1b812421
+2021-11-07 15:27:02,310 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1b812421
+2021-11-07 15:27:02,311 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@78dc4696
+2021-11-07 15:27:02,311 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@78dc4696
+2021-11-07 15:27:02,312 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@779dfe55
+2021-11-07 15:27:02,313 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@779dfe55
+2021-11-07 15:27:02,314 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3cc20577
+2021-11-07 15:27:02,314 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3cc20577
+2021-11-07 15:27:02,316 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@48b0e701
+2021-11-07 15:27:02,316 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@48b0e701
+2021-11-07 15:27:02,318 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@46baf579
+2021-11-07 15:27:02,318 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@46baf579
+2021-11-07 15:27:02,319 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@3bd55d8
+2021-11-07 15:27:02,319 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@3bd55d8
+2021-11-07 15:27:02,320 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@5f5b5ca4
+2021-11-07 15:27:02,320 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5f5b5ca4
+2021-11-07 15:27:02,321 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@5f212d84
+2021-11-07 15:27:02,322 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5f212d84
+2021-11-07 15:27:02,322 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5f212d84
+2021-11-07 15:27:02,323 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@30b9eadd
+2021-11-07 15:27:02,324 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@72be135f
+2021-11-07 15:27:02,324 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@72be135f
+2021-11-07 15:27:02,324 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@72be135f
+2021-11-07 15:27:02,325 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@51e37590
+2021-11-07 15:27:02,326 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4c060c8f
+2021-11-07 15:27:02,327 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@6ea94d6a
+2021-11-07 15:27:02,327 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6ea94d6a
+2021-11-07 15:27:02,328 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@7d151a
+2021-11-07 15:27:02,328 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7d151a
+2021-11-07 15:27:02,329 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@7bc9e6ab
+2021-11-07 15:27:02,329 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7bc9e6ab
+2021-11-07 15:27:02,330 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@45673f68
+2021-11-07 15:27:02,331 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@45673f68
+2021-11-07 15:27:02,332 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1efdcd5
+2021-11-07 15:27:02,332 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1efdcd5
+2021-11-07 15:27:02,333 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3c2772d1
+2021-11-07 15:27:02,334 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@3c5a54b7
+2021-11-07 15:27:02,334 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@3c5a54b7
+2021-11-07 15:27:02,334 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@3c5a54b7
+2021-11-07 15:27:02,335 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6f8d7714
+2021-11-07 15:27:02,335 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6f8d7714
+2021-11-07 15:27:02,336 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6f8d7714
+2021-11-07 15:27:02,336 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@601cbd8c
+2021-11-07 15:27:02,337 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@5a5c128
+2021-11-07 15:27:02,338 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@7ff2b8d2
+2021-11-07 15:27:02,338 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@7ff2b8d2
+2021-11-07 15:27:02,338 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@7ff2b8d2
+2021-11-07 15:27:02,339 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5b6e8f77
+2021-11-07 15:27:02,339 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5b6e8f77
+2021-11-07 15:27:02,339 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5b6e8f77
+2021-11-07 15:27:02,340 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@6e28bb87
+2021-11-07 15:27:02,340 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@c3c4c1c
+2021-11-07 15:27:02,341 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@5d05ef57
+2021-11-07 15:27:02,342 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5d05ef57
+2021-11-07 15:27:02,342 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5a9800f8
+2021-11-07 15:27:02,343 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@7a94b64e
+2021-11-07 15:27:02,343 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7a94b64e
+2021-11-07 15:27:02,344 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@31ff1390
+2021-11-07 15:27:02,345 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@31ff1390
+2021-11-07 15:27:02,345 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@13e698c7
+2021-11-07 15:27:02,346 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@389562d6
+2021-11-07 15:27:02,347 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@e8fadb0
+2021-11-07 15:27:02,350 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@3aefae67
+2021-11-07 15:27:02,350 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3aefae67
+2021-11-07 15:27:02,351 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@796d3c9f
+2021-11-07 15:27:02,351 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6bff19ff
+2021-11-07 15:27:02,352 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@41e1455d
+2021-11-07 15:27:02,352 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4e558728
+2021-11-07 15:27:02,352 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5eccd3b9
+2021-11-07 15:27:02,352 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4d6f197e
+2021-11-07 15:27:02,352 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6ef7623
+2021-11-07 15:27:02,353 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@64e1dd11
+2021-11-07 15:27:02,376 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-11-07 15:27:02,376 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-11-07 15:27:02,377 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-11-07 15:27:02,377 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-11-07 15:27:02,377 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-11-07 15:27:02,378 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-11-07 15:27:02,379 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-11-07 15:27:02,380 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-11-07 15:27:02,381 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-11-07 15:27:02,382 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-11-07 15:27:02,382 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-11-07 15:27:02,382 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-11-07 15:27:02,382 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-11-07 15:27:02,383 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-11-07 15:27:02,387 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-11-07 15:27:02,392 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/module_3?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+2021-11-07 15:27:02,392 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001001: Connection properties: {password=Hydojnick777, user=root}
+2021-11-07 15:27:02,392 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001003: Autocommit mode: false
+2021-11-07 15:27:02,394 DEBUG o.j.l.DelegatingBasicLogger [main] Initializing Connection pool with 1 Connections
+2021-11-07 15:27:02,394 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl$PooledConnections [main] HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-11-07 15:27:02,522 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Database ->
+       name : MySQL
+    version : 8.0.25
+      major : 8
+      minor : 0
+2021-11-07 15:27:02,523 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+2021-11-07 15:27:02,523 DEBUG o.j.l.DelegatingBasicLogger [main] JDBC version : 4.2
+2021-11-07 15:27:02,531 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-07 15:27:02,544 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder [main] JDBC driver metadata reported database stores quoted identifiers in more than one case
+2021-11-07 15:27:02,570 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder [main] IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2021-11-07 15:27:02,601 DEBUG o.h.b.m.r.Namespace [main] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-11-07 15:27:02,604 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@34fe326d] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@30a7c98f]
+2021-11-07 15:27:02,642 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: ua.com.alevel.entity.User
+2021-11-07 15:27:02,658 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-07 15:27:02,661 DEBUG o.h.c.a.EntityBinder [main] Import with entity name User
+2021-11-07 15:27:02,662 DEBUG o.h.b.m.r.Namespace [main] Created database namespace [logicalName=Name{catalog=null, schema=module_3}, physicalName=Name{catalog=null, schema=module_3}]
+2021-11-07 15:27:02,664 DEBUG o.h.c.a.EntityBinder [main] Bind entity ua.com.alevel.entity.User on table user_data
+2021-11-07 15:27:02,689 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,692 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property id with lazy=false
+2021-11-07 15:27:02,693 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:id]
+2021-11-07 15:27:02,695 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for id
+2021-11-07 15:27:02,697 DEBUG o.h.c.a.PropertyBinder [main] Building property id
+2021-11-07 15:27:02,701 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2021-11-07 15:27:02,703 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='users'}
+2021-11-07 15:27:02,703 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=bankAccount, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,705 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,712 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,713 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=bankAccount_KEY, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,713 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='bankAccount_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-07 15:27:02,715 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='users'}
+2021-11-07 15:27:02,715 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='users'}
+2021-11-07 15:27:02,715 DEBUG o.h.c.a.CollectionBinder [main] Collection role: ua.com.alevel.entity.User.bankAccount
+2021-11-07 15:27:02,717 DEBUG o.h.c.a.PropertyBinder [main] Building property bankAccount
+2021-11-07 15:27:02,717 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=email, insertable=true, updatable=true, unique=true}
+2021-11-07 15:27:02,718 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userEmail with lazy=false
+2021-11-07 15:27:02,718 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:userEmail]
+2021-11-07 15:27:02,718 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userEmail
+2021-11-07 15:27:02,718 DEBUG o.h.c.a.PropertyBinder [main] Building property userEmail
+2021-11-07 15:27:02,718 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,718 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userFirstName with lazy=false
+2021-11-07 15:27:02,719 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:userFirstName]
+2021-11-07 15:27:02,719 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userFirstName
+2021-11-07 15:27:02,719 DEBUG o.h.c.a.PropertyBinder [main] Building property userFirstName
+2021-11-07 15:27:02,719 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,719 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userLastName with lazy=false
+2021-11-07 15:27:02,719 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:userLastName]
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userLastName
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.PropertyBinder [main] Building property userLastName
+2021-11-07 15:27:02,720 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=user_password, insertable=true, updatable=true, unique=true}
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userPassword with lazy=false
+2021-11-07 15:27:02,720 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:userPassword]
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userPassword
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.PropertyBinder [main] Building property userPassword
+2021-11-07 15:27:02,720 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.user_data), mappingColumn=telephone_number, insertable=true, updatable=true, unique=true}
+2021-11-07 15:27:02,720 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userTelephoneNumber with lazy=false
+2021-11-07 15:27:02,721 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.User:userTelephoneNumber]
+2021-11-07 15:27:02,721 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userTelephoneNumber
+2021-11-07 15:27:02,721 DEBUG o.h.c.a.PropertyBinder [main] Building property userTelephoneNumber
+2021-11-07 15:27:02,722 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:02,722 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-07 15:27:02,723 DEBUG o.h.c.a.EntityBinder [main] Import with entity name BankAccount
+2021-11-07 15:27:02,723 DEBUG o.h.c.a.EntityBinder [main] Bind entity ua.com.alevel.entity.BankAccount on table bank_account_data
+2021-11-07 15:27:02,728 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=bankAccountId, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,729 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property bankAccountId with lazy=false
+2021-11-07 15:27:02,729 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.BankAccount:bankAccountId]
+2021-11-07 15:27:02,729 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for bankAccountId
+2021-11-07 15:27:02,729 DEBUG o.h.c.a.PropertyBinder [main] Building property bankAccountId
+2021-11-07 15:27:02,729 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(bankAccountId)]), bankAccountId, identity, , ...)
+2021-11-07 15:27:02,730 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=account_expired_end, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,730 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property bankAccountExpiredEnd with lazy=false
+2021-11-07 15:27:02,730 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.BankAccount:bankAccountExpiredEnd]
+2021-11-07 15:27:02,730 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for bankAccountExpiredEnd
+2021-11-07 15:27:02,730 DEBUG o.h.c.a.PropertyBinder [main] Building property bankAccountExpiredEnd
+2021-11-07 15:27:02,731 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=account_number, insertable=true, updatable=true, unique=true}
+2021-11-07 15:27:02,731 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property bankAccountNumber with lazy=false
+2021-11-07 15:27:02,731 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.BankAccount:bankAccountNumber]
+2021-11-07 15:27:02,732 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for bankAccountNumber
+2021-11-07 15:27:02,732 DEBUG o.h.c.a.PropertyBinder [main] Building property bankAccountNumber
+2021-11-07 15:27:02,732 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=name_finance_institution, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,732 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property nameOfTheFinanceInstitution with lazy=false
+2021-11-07 15:27:02,732 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.BankAccount:nameOfTheFinanceInstitution]
+2021-11-07 15:27:02,733 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for nameOfTheFinanceInstitution
+2021-11-07 15:27:02,733 DEBUG o.h.c.a.PropertyBinder [main] Building property nameOfTheFinanceInstitution
+2021-11-07 15:27:02,733 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='account'}
+2021-11-07 15:27:02,733 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=operations, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,733 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=operations_KEY, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='operations_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='account'}
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='account'}
+2021-11-07 15:27:02,734 DEBUG o.h.c.a.CollectionBinder [main] Collection role: ua.com.alevel.entity.BankAccount.operations
+2021-11-07 15:27:02,734 DEBUG o.h.c.a.PropertyBinder [main] Building property operations
+2021-11-07 15:27:02,734 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=total_amount_value, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,735 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property totalAmountValue with lazy=false
+2021-11-07 15:27:02,735 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.BankAccount:totalAmountValue]
+2021-11-07 15:27:02,735 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for totalAmountValue
+2021-11-07 15:27:02,735 DEBUG o.h.c.a.PropertyBinder [main] Building property totalAmountValue
+2021-11-07 15:27:02,735 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+2021-11-07 15:27:02,736 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.bank_account_data), mappingColumn=users, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,737 DEBUG o.h.c.a.PropertyBinder [main] Building property users
+2021-11-07 15:27:02,738 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: ua.com.alevel.entity.Operation
+2021-11-07 15:27:02,738 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-07 15:27:02,738 DEBUG o.h.c.a.EntityBinder [main] Import with entity name Operation
+2021-11-07 15:27:02,738 DEBUG o.h.c.a.EntityBinder [main] Bind entity ua.com.alevel.entity.Operation on table journal_operation
+2021-11-07 15:27:02,740 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=operationId, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,740 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property operationId with lazy=false
+2021-11-07 15:27:02,740 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Operation:operationId]
+2021-11-07 15:27:02,740 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for operationId
+2021-11-07 15:27:02,740 DEBUG o.h.c.a.PropertyBinder [main] Building property operationId
+2021-11-07 15:27:02,740 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(operationId)]), operationId, identity, , ...)
+2021-11-07 15:27:02,741 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='bank_account_id', referencedColumn='', mappedBy=''}
+2021-11-07 15:27:02,741 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=account, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,741 DEBUG o.h.c.a.PropertyBinder [main] Building property account
+2021-11-07 15:27:02,741 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='category_id', referencedColumn='', mappedBy=''}
+2021-11-07 15:27:02,741 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=category, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,742 DEBUG o.h.c.a.PropertyBinder [main] Building property category
+2021-11-07 15:27:02,742 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=value, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,742 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property incomeValue with lazy=false
+2021-11-07 15:27:02,742 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Operation:incomeValue]
+2021-11-07 15:27:02,742 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for incomeValue
+2021-11-07 15:27:02,742 DEBUG o.h.c.a.PropertyBinder [main] Building property incomeValue
+2021-11-07 15:27:02,742 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=short_operation_description, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,742 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property operationDescription with lazy=false
+2021-11-07 15:27:02,743 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Operation:operationDescription]
+2021-11-07 15:27:02,743 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for operationDescription
+2021-11-07 15:27:02,743 DEBUG o.h.c.a.PropertyBinder [main] Building property operationDescription
+2021-11-07 15:27:02,743 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.journal_operation), mappingColumn=operation_time, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,743 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property operationTime with lazy=false
+2021-11-07 15:27:02,743 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Operation:operationTime]
+2021-11-07 15:27:02,744 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for operationTime
+2021-11-07 15:27:02,744 DEBUG o.h.c.a.PropertyBinder [main] Building property operationTime
+2021-11-07 15:27:02,744 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: ua.com.alevel.entity.Category
+2021-11-07 15:27:02,744 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-07 15:27:02,744 DEBUG o.h.c.a.EntityBinder [main] Import with entity name Category
+2021-11-07 15:27:02,744 DEBUG o.h.c.a.EntityBinder [main] Bind entity ua.com.alevel.entity.Category on table type_category
+2021-11-07 15:27:02,747 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.type_category), mappingColumn=categoryId, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,747 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property categoryId with lazy=false
+2021-11-07 15:27:02,747 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Category:categoryId]
+2021-11-07 15:27:02,747 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for categoryId
+2021-11-07 15:27:02,747 DEBUG o.h.c.a.PropertyBinder [main] Building property categoryId
+2021-11-07 15:27:02,747 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(categoryId)]), categoryId, identity, , ...)
+2021-11-07 15:27:02,748 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.type_category), mappingColumn=category, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,748 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property category with lazy=false
+2021-11-07 15:27:02,748 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Category:category]
+2021-11-07 15:27:02,748 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for category
+2021-11-07 15:27:02,749 DEBUG o.h.c.a.PropertyBinder [main] Building property category
+2021-11-07 15:27:02,749 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(module_3.type_category), mappingColumn=category_type, insertable=true, updatable=true, unique=false}
+2021-11-07 15:27:02,750 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property categoryType with lazy=false
+2021-11-07 15:27:02,750 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ua.com.alevel.entity.Category:categoryType]
+2021-11-07 15:27:02,751 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for categoryType
+2021-11-07 15:27:02,752 DEBUG o.h.c.a.PropertyBinder [main] Building property categoryType
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for id
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userEmail
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userFirstName
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userLastName
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userPassword
+2021-11-07 15:27:02,753 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userTelephoneNumber
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for bankAccountId
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for bankAccountExpiredEnd
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for bankAccountNumber
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for nameOfTheFinanceInstitution
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for totalAmountValue
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for operationId
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for incomeValue
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for operationDescription
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for operationTime
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for categoryId
+2021-11-07 15:27:02,754 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for category
+2021-11-07 15:27:02,755 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for categoryType
+2021-11-07 15:27:02,758 DEBUG o.h.m.PrimaryKey [main] Forcing column [id] to be non-null as it is part of the primary key for table [user_data]
+2021-11-07 15:27:02,758 DEBUG o.h.m.PrimaryKey [main] Forcing column [bankaccountid] to be non-null as it is part of the primary key for table [bank_account_data]
+2021-11-07 15:27:02,758 DEBUG o.h.m.PrimaryKey [main] Forcing column [operationid] to be non-null as it is part of the primary key for table [journal_operation]
+2021-11-07 15:27:02,758 DEBUG o.h.m.PrimaryKey [main] Forcing column [categoryid] to be non-null as it is part of the primary key for table [type_category]
+2021-11-07 15:27:02,759 DEBUG o.h.c.CollectionSecondPass [main] Second pass for collection: ua.com.alevel.entity.User.bankAccount
+2021-11-07 15:27:02,759 DEBUG o.h.c.a.CollectionBinder [main] Binding a OneToMany: ua.com.alevel.entity.User.bankAccount through a foreign key
+2021-11-07 15:27:02,760 DEBUG o.h.c.a.CollectionBinder [main] Mapping collection: ua.com.alevel.entity.User.bankAccount -> bank_account_data
+2021-11-07 15:27:02,761 DEBUG o.h.c.a.TableBinder [main] Retrieving property ua.com.alevel.entity.BankAccount.users
+2021-11-07 15:27:02,761 DEBUG o.h.c.CollectionSecondPass [main] Mapped collection key: user_id, one-to-many: ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:02,761 DEBUG o.h.c.CollectionSecondPass [main] Second pass for collection: ua.com.alevel.entity.BankAccount.operations
+2021-11-07 15:27:02,762 DEBUG o.h.c.a.CollectionBinder [main] Binding a OneToMany: ua.com.alevel.entity.BankAccount.operations through a foreign key
+2021-11-07 15:27:02,762 DEBUG o.h.c.a.CollectionBinder [main] Mapping collection: ua.com.alevel.entity.BankAccount.operations -> journal_operation
+2021-11-07 15:27:02,762 DEBUG o.h.c.a.TableBinder [main] Retrieving property ua.com.alevel.entity.Operation.account
+2021-11-07 15:27:02,762 DEBUG o.h.c.CollectionSecondPass [main] Mapped collection key: bank_account_id, one-to-many: ua.com.alevel.entity.Operation
+2021-11-07 15:27:02,762 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.User
+2021-11-07 15:27:02,765 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:02,765 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.Category
+2021-11-07 15:27:02,766 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.User
+2021-11-07 15:27:02,766 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:02,766 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: ua.com.alevel.entity.Category
+2021-11-07 15:27:02,785 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:02,794 DEBUG o.h.i.SessionFactoryImpl [main] Building session factory
+2021-11-07 15:27:02,795 DEBUG o.h.c.Settings [main] SessionFactory name : null
+2021-11-07 15:27:02,795 DEBUG o.h.c.Settings [main] Automatic flush during beforeCompletion(): enabled
+2021-11-07 15:27:02,795 DEBUG o.h.c.Settings [main] Automatic session close at end of transaction: disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Statistics: disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Deleted entity synthetic identifier rollback: disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Default entity-mode: pojo
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Allow initialization of lazy state outside session : disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Using BatchFetchStyle : LEGACY
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Default batch fetch size: -1
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Maximum outer join fetch depth: 2
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Default null ordering: NONE
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Order SQL updates by primary key: disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Order SQL inserts for batching: disabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] multi-tenancy strategy : NONE
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] JTA Track by Thread: enabled
+2021-11-07 15:27:02,796 DEBUG o.h.c.Settings [main] Query language substitutions: {}
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Named query checking : enabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Second-level cache: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Second-level query cache: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Second-level query cache factory: null
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Second-level cache region prefix: null
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Optimize second-level cache for minimal puts: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Structured second-level cache entries: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Second-level cache direct-reference entries: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Automatic eviction of collection cache: disabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] JDBC batch size: 15
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] JDBC batch updates for versioned data: enabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Scrollable result sets: enabled
+2021-11-07 15:27:02,797 DEBUG o.h.c.Settings [main] Wrap result sets: disabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JDBC3 getGeneratedKeys(): enabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JDBC result set fetch size: null
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] Connection release mode: AFTER_TRANSACTION
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] Generate SQL with comments: disabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JPA compliance - query : disabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JPA compliance - closed-handling : disabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JPA compliance - lists : disabled
+2021-11-07 15:27:02,798 DEBUG o.h.c.Settings [main] JPA compliance - transactions : disabled
+2021-11-07 15:27:02,845 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:02,855 DEBUG o.h.i.SessionFactoryImpl [main] Session factory constructed with filter configurations : {}
+2021-11-07 15:27:02,855 DEBUG o.h.i.SessionFactoryImpl [main] Instantiating session factory with properties: {hibernate.format_sql=true, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQL8Dialect, java.class.path=C:\Users\Vadim\IdeaProjects\nix_7\module_3\target\classes;C:\Users\Vadim\.m2\repository\org\hibernate\hibernate-core\5.4.14.Final\hibernate-core-5.4.14.Final.jar;C:\Users\Vadim\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Vadim\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Vadim\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\Vadim\.m2\repository\net\bytebuddy\byte-buddy\1.10.7\byte-buddy-1.10.7.jar;C:\Users\Vadim\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Vadim\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Vadim\.m2\repository\org\jboss\jandex\2.1.1.Final\jandex-2.1.1.Final.jar;C:\Users\Vadim\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Vadim\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Vadim\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\Vadim\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Vadim\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Vadim\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Vadim\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Vadim\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Vadim\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Vadim\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Vadim\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\Vadim\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\Vadim\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Vadim\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Vadim\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Vadim\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vadim\.m2\repository\org\reflections\reflections\0.9.12\reflections-0.9.12.jar;C:\Users\Vadim\.m2\repository\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Kiev, user.country.format=UA, java.vm.specification.version=17, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk-17\bin, sun.java.command=ua.com.alevel.ThirdModuleMain, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Vadim, user.language=ru, java.specification.vendor=Oracle Corporation, java.version.date=2021-09-14, java.home=C:\Program Files\Java\jdk-17, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17+35-LTS-2724, user.name=Vadim, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/module_3?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\Vadim\AppData\Local\Temp\, java.version=17, user.dir=C:\Users\Vadim\IdeaProjects\nix_7, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@176f7f3b, native.encoding=Cp1251, java.library.path=C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\mysql\bin;C:\Program Files;C:\Winnt;C:\Winnt\System32;C:\Program Files (x86)\Vim\vim82;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\ProgramData\MySQL\MySQL Server 5.5\my.ini;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;;C:\Users\Vadim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=17+35-LTS-2724, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.class.version=61.0}
+2021-11-07 15:27:02,868 DEBUG o.h.s.s.JaccIntegrator [main] Skipping JACC integration as it was not enabled
+2021-11-07 15:27:02,868 DEBUG o.h.i.SessionFactoryImpl [main] Instantiated session factory
+2021-11-07 15:27:02,869 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@34fe326d] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7f93dd4e]
+2021-11-07 15:27:02,901 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.User] is safe
+2021-11-07 15:27:02,902 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.User
+2021-11-07 15:27:02,923 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.User] is safe
+2021-11-07 15:27:02,923 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.User
+2021-11-07 15:27:03,109 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.Category] is safe
+2021-11-07 15:27:03,109 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.Category
+2021-11-07 15:27:03,109 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,109 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,109 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.Category] is safe
+2021-11-07 15:27:03,109 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.Category
+2021-11-07 15:27:03,123 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,123 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,124 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.BankAccount] is safe
+2021-11-07 15:27:03,124 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:03,124 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.BankAccount] is safe
+2021-11-07 15:27:03,124 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:03,139 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.Operation] is safe
+2021-11-07 15:27:03,139 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.Operation
+2021-11-07 15:27:03,140 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [ua.com.alevel.entity.Operation] is safe
+2021-11-07 15:27:03,140 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ua.com.alevel.entity.Operation
+2021-11-07 15:27:03,155 DEBUG o.h.p.c.AbstractCollectionPersister [main] Static SQL for collection: ua.com.alevel.entity.User.bankAccount
+2021-11-07 15:27:03,155 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row insert: update bank_account_data set user_id=? where bankAccountId=?
+2021-11-07 15:27:03,155 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row update: update bank_account_data set  where bankAccountId=?
+2021-11-07 15:27:03,155 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row delete: update bank_account_data set user_id=null where user_id=? and bankAccountId=?
+2021-11-07 15:27:03,155 DEBUG o.h.p.c.AbstractCollectionPersister [main]  One-shot delete: update bank_account_data set user_id=null where user_id=?
+2021-11-07 15:27:03,156 DEBUG o.h.p.c.AbstractCollectionPersister [main] Static SQL for collection: ua.com.alevel.entity.BankAccount.operations
+2021-11-07 15:27:03,156 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row insert: update journal_operation set bank_account_id=? where operationId=?
+2021-11-07 15:27:03,156 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row update: update journal_operation set  where operationId=?
+2021-11-07 15:27:03,156 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row delete: update journal_operation set bank_account_id=null where bank_account_id=? and operationId=?
+2021-11-07 15:27:03,156 DEBUG o.h.p.c.AbstractCollectionPersister [main]  One-shot delete: update journal_operation set bank_account_id=null where bank_account_id=?
+2021-11-07 15:27:03,158 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: ua.com.alevel.entity.User
+2021-11-07 15:27:03,159 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select id from user_data where id =?
+2021-11-07 15:27:03,159 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select user_.id, user_.email as email2_3_, user_.first_name as first_na3_3_, user_.last_name as last_nam4_3_, user_.user_password as user_pas5_3_, user_.telephone_number as telephon6_3_ from user_data user_ where user_.id=?
+2021-11-07 15:27:03,159 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into user_data (email, first_name, last_name, user_password, telephone_number, id) values (?, ?, ?, ?, ?, ?)
+2021-11-07 15:27:03,159 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update user_data set email=?, first_name=?, last_name=?, user_password=?, telephone_number=? where id=?
+2021-11-07 15:27:03,159 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from user_data where id=?
+2021-11-07 15:27:03,159 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into user_data (email, first_name, last_name, user_password, telephone_number) values (?, ?, ?, ?, ?)
+2021-11-07 15:27:03,170 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b000fe6]
+2021-11-07 15:27:03,171 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccount
+2021-11-07 15:27:03,173 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@19c1820d]
+2021-11-07 15:27:03,174 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a8a3ada]
+2021-11-07 15:27:03,174 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userEmail
+2021-11-07 15:27:03,174 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userFirstName
+2021-11-07 15:27:03,175 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userLastName
+2021-11-07 15:27:03,175 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userPassword
+2021-11-07 15:27:03,175 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userTelephoneNumber
+2021-11-07 15:27:03,175 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,182 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,185 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.User, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.User)
+          - CollectionAttributeFetchImpl(collection=ua.com.alevel.entity.User.bankAccount, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.User.bankAccount)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.User.bankAccount.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2021-11-07 15:27:03,187 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.User [NONE]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.user_password as user_pas5_3_0_, user0_.telephone_number as telephon6_3_0_ from user_data user0_ where user0_.id=?
+2021-11-07 15:27:03,187 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a7df831]
+2021-11-07 15:27:03,187 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccount
+2021-11-07 15:27:03,187 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@22d7fd41]
+2021-11-07 15:27:03,187 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c748a15]
+2021-11-07 15:27:03,187 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userEmail
+2021-11-07 15:27:03,187 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userFirstName
+2021-11-07 15:27:03,187 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userLastName
+2021-11-07 15:27:03,187 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userPassword
+2021-11-07 15:27:03,188 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userTelephoneNumber
+2021-11-07 15:27:03,188 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,188 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,188 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.User, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.User)
+          - CollectionAttributeFetchImpl(collection=ua.com.alevel.entity.User.bankAccount, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.User.bankAccount)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.User.bankAccount.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2021-11-07 15:27:03,188 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.User [READ]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.user_password as user_pas5_3_0_, user0_.telephone_number as telephon6_3_0_ from user_data user0_ where user0_.id=?
+2021-11-07 15:27:03,195 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_MERGE on entity ua.com.alevel.entity.User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.user_password as user_pas5_3_0_, user0_.telephone_number as telephon6_3_0_ from user_data user0_ where user0_.id=?
+2021-11-07 15:27:03,196 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_REFRESH on entity ua.com.alevel.entity.User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.user_password as user_pas5_3_0_, user0_.telephone_number as telephon6_3_0_ from user_data user0_ where user0_.id=?
+2021-11-07 15:27:03,196 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: ua.com.alevel.entity.Category
+2021-11-07 15:27:03,196 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select categoryId from type_category where categoryId =?
+2021-11-07 15:27:03,196 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select category_.categoryId, category_.category as category2_2_, category_.category_type as category3_2_ from type_category category_ where category_.categoryId=?
+2021-11-07 15:27:03,196 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into type_category (category, category_type, categoryId) values (?, ?, ?)
+2021-11-07 15:27:03,196 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update type_category set category=?, category_type=? where categoryId=?
+2021-11-07 15:27:03,196 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from type_category where categoryId=?
+2021-11-07 15:27:03,196 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into type_category (category, category_type) values (?, ?)
+2021-11-07 15:27:03,196 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@da4cf09]
+2021-11-07 15:27:03,197 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : category
+2021-11-07 15:27:03,197 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : categoryType
+2021-11-07 15:27:03,197 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,197 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,197 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.Category)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.Category, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.Category)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.Category)
+          - SQL table alias mapping - category0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_2_0_}
+
+2021-11-07 15:27:03,198 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.Category [NONE]: select category0_.categoryId as category1_2_0_, category0_.category as category2_2_0_, category0_.category_type as category3_2_0_ from type_category category0_ where category0_.categoryId=?
+2021-11-07 15:27:03,198 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67f63d26]
+2021-11-07 15:27:03,198 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : category
+2021-11-07 15:27:03,198 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : categoryType
+2021-11-07 15:27:03,198 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,198 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,199 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.Category)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.Category, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.Category)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.Category)
+          - SQL table alias mapping - category0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_2_0_}
+
+2021-11-07 15:27:03,199 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.Category [READ]: select category0_.categoryId as category1_2_0_, category0_.category as category2_2_0_, category0_.category_type as category3_2_0_ from type_category category0_ where category0_.categoryId=?
+2021-11-07 15:27:03,199 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_MERGE on entity ua.com.alevel.entity.Category: select category0_.categoryId as category1_2_0_, category0_.category as category2_2_0_, category0_.category_type as category3_2_0_ from type_category category0_ where category0_.categoryId=?
+2021-11-07 15:27:03,199 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_REFRESH on entity ua.com.alevel.entity.Category: select category0_.categoryId as category1_2_0_, category0_.category as category2_2_0_, category0_.category_type as category3_2_0_ from type_category category0_ where category0_.categoryId=?
+2021-11-07 15:27:03,199 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:03,199 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select bankAccountId from bank_account_data where bankAccountId =?
+2021-11-07 15:27:03,199 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select bankaccoun_.bankAccountId, bankaccoun_.account_expired_end as account_2_0_, bankaccoun_.account_number as account_3_0_, bankaccoun_.name_finance_institution as name_fin4_0_, bankaccoun_.total_amount_value as total_am5_0_, bankaccoun_.user_id as user_id6_0_ from bank_account_data bankaccoun_ where bankaccoun_.bankAccountId=?
+2021-11-07 15:27:03,199 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into bank_account_data (account_expired_end, account_number, name_finance_institution, total_amount_value, user_id, bankAccountId) values (?, ?, ?, ?, ?, ?)
+2021-11-07 15:27:03,199 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update bank_account_data set account_expired_end=?, account_number=?, name_finance_institution=?, total_amount_value=?, user_id=? where bankAccountId=?
+2021-11-07 15:27:03,200 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from bank_account_data where bankAccountId=?
+2021-11-07 15:27:03,200 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into bank_account_data (account_expired_end, account_number, name_finance_institution, total_amount_value, user_id) values (?, ?, ?, ?, ?)
+2021-11-07 15:27:03,200 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@789c3057]
+2021-11-07 15:27:03,200 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountExpiredEnd
+2021-11-07 15:27:03,200 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountNumber
+2021-11-07 15:27:03,200 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : nameOfTheFinanceInstitution
+2021-11-07 15:27:03,200 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operations
+2021-11-07 15:27:03,200 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6f5d0190]
+2021-11-07 15:27:03,200 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67332b1e]
+2021-11-07 15:27:03,200 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : totalAmountValue
+2021-11-07 15:27:03,201 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : users
+2021-11-07 15:27:03,201 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7e34b127]
+2021-11-07 15:27:03,201 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,202 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,202 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.BankAccount)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.BankAccount)
+          - CollectionAttributeFetchImpl(collection=ua.com.alevel.entity.BankAccount.operations, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.BankAccount.operations)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.BankAccount.operations.<elements>)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.User, querySpaceUid=<gen:3>, path=ua.com.alevel.entity.BankAccount.users)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.BankAccount)
+          - SQL table alias mapping - bankaccoun0_
+          - alias suffix - 0_
+          - suffixed key columns - {bankacco1_0_0_}
+
+2021-11-07 15:27:03,202 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.BankAccount [NONE]: select bankaccoun0_.bankAccountId as bankacco1_0_0_, bankaccoun0_.account_expired_end as account_2_0_0_, bankaccoun0_.account_number as account_3_0_0_, bankaccoun0_.name_finance_institution as name_fin4_0_0_, bankaccoun0_.total_amount_value as total_am5_0_0_, bankaccoun0_.user_id as user_id6_0_0_ from bank_account_data bankaccoun0_ where bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:03,202 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c3de38e]
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountExpiredEnd
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountNumber
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : nameOfTheFinanceInstitution
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operations
+2021-11-07 15:27:03,203 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1f9d4b0e]
+2021-11-07 15:27:03,203 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e8fb66f]
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : totalAmountValue
+2021-11-07 15:27:03,203 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : users
+2021-11-07 15:27:03,203 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d8d17a3]
+2021-11-07 15:27:03,203 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,204 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,204 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.BankAccount)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.BankAccount)
+          - CollectionAttributeFetchImpl(collection=ua.com.alevel.entity.BankAccount.operations, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.BankAccount.operations)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.BankAccount.operations.<elements>)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.User, querySpaceUid=<gen:3>, path=ua.com.alevel.entity.BankAccount.users)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.BankAccount)
+          - SQL table alias mapping - bankaccoun0_
+          - alias suffix - 0_
+          - suffixed key columns - {bankacco1_0_0_}
+
+2021-11-07 15:27:03,204 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.BankAccount [READ]: select bankaccoun0_.bankAccountId as bankacco1_0_0_, bankaccoun0_.account_expired_end as account_2_0_0_, bankaccoun0_.account_number as account_3_0_0_, bankaccoun0_.name_finance_institution as name_fin4_0_0_, bankaccoun0_.total_amount_value as total_am5_0_0_, bankaccoun0_.user_id as user_id6_0_0_ from bank_account_data bankaccoun0_ where bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:03,204 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_MERGE on entity ua.com.alevel.entity.BankAccount: select bankaccoun0_.bankAccountId as bankacco1_0_0_, bankaccoun0_.account_expired_end as account_2_0_0_, bankaccoun0_.account_number as account_3_0_0_, bankaccoun0_.name_finance_institution as name_fin4_0_0_, bankaccoun0_.total_amount_value as total_am5_0_0_, bankaccoun0_.user_id as user_id6_0_0_ from bank_account_data bankaccoun0_ where bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:03,205 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_REFRESH on entity ua.com.alevel.entity.BankAccount: select bankaccoun0_.bankAccountId as bankacco1_0_0_, bankaccoun0_.account_expired_end as account_2_0_0_, bankaccoun0_.account_number as account_3_0_0_, bankaccoun0_.name_finance_institution as name_fin4_0_0_, bankaccoun0_.total_amount_value as total_am5_0_0_, bankaccoun0_.user_id as user_id6_0_0_ from bank_account_data bankaccoun0_ where bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:03,205 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: ua.com.alevel.entity.Operation
+2021-11-07 15:27:03,205 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select operationId from journal_operation where operationId =?
+2021-11-07 15:27:03,205 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select operation_.operationId, operation_.bank_account_id as bank_acc5_1_, operation_.category_id as category6_1_, operation_.value as value2_1_, operation_.short_operation_description as short_op3_1_, operation_.operation_time as operatio4_1_ from journal_operation operation_ where operation_.operationId=?
+2021-11-07 15:27:03,205 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into journal_operation (bank_account_id, category_id, value, short_operation_description, operation_time, operationId) values (?, ?, ?, ?, ?, ?)
+2021-11-07 15:27:03,205 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update journal_operation set bank_account_id=?, category_id=?, value=?, short_operation_description=?, operation_time=? where operationId=?
+2021-11-07 15:27:03,205 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from journal_operation where operationId=?
+2021-11-07 15:27:03,205 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into journal_operation (bank_account_id, category_id, value, short_operation_description, operation_time) values (?, ?, ?, ?, ?)
+2021-11-07 15:27:03,205 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ac91282]
+2021-11-07 15:27:03,205 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : account
+2021-11-07 15:27:03,206 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1ca610a0]
+2021-11-07 15:27:03,206 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : category
+2021-11-07 15:27:03,206 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49433c98]
+2021-11-07 15:27:03,206 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : incomeValue
+2021-11-07 15:27:03,206 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationDescription
+2021-11-07 15:27:03,206 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationTime
+2021-11-07 15:27:03,206 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,206 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,206 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.Operation)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.Operation)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.Operation.account)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.Category, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.Operation.category)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.Operation)
+          - SQL table alias mapping - operation0_
+          - alias suffix - 0_
+          - suffixed key columns - {operatio1_1_0_}
+
+2021-11-07 15:27:03,207 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.Operation [NONE]: select operation0_.operationId as operatio1_1_0_, operation0_.bank_account_id as bank_acc5_1_0_, operation0_.category_id as category6_1_0_, operation0_.value as value2_1_0_, operation0_.short_operation_description as short_op3_1_0_, operation0_.operation_time as operatio4_1_0_ from journal_operation operation0_ where operation0_.operationId=?
+2021-11-07 15:27:03,207 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b5c6a30]
+2021-11-07 15:27:03,207 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : account
+2021-11-07 15:27:03,207 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1775c4e7]
+2021-11-07 15:27:03,207 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : category
+2021-11-07 15:27:03,207 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47829d6d]
+2021-11-07 15:27:03,207 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : incomeValue
+2021-11-07 15:27:03,207 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationDescription
+2021-11-07 15:27:03,207 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationTime
+2021-11-07 15:27:03,207 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,207 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,208 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=ua.com.alevel.entity.Operation)
+    - Returns
+       - EntityReturnImpl(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:0>, path=ua.com.alevel.entity.Operation)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:1>, path=ua.com.alevel.entity.Operation.account)
+          - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.Category, querySpaceUid=<gen:2>, path=ua.com.alevel.entity.Operation.category)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ua.com.alevel.entity.Operation)
+          - SQL table alias mapping - operation0_
+          - alias suffix - 0_
+          - suffixed key columns - {operatio1_1_0_}
+
+2021-11-07 15:27:03,208 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity ua.com.alevel.entity.Operation [READ]: select operation0_.operationId as operatio1_1_0_, operation0_.bank_account_id as bank_acc5_1_0_, operation0_.category_id as category6_1_0_, operation0_.value as value2_1_0_, operation0_.short_operation_description as short_op3_1_0_, operation0_.operation_time as operatio4_1_0_ from journal_operation operation0_ where operation0_.operationId=?
+2021-11-07 15:27:03,208 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_MERGE on entity ua.com.alevel.entity.Operation: select operation0_.operationId as operatio1_1_0_, operation0_.bank_account_id as bank_acc5_1_0_, operation0_.category_id as category6_1_0_, operation0_.value as value2_1_0_, operation0_.short_operation_description as short_op3_1_0_, operation0_.operation_time as operatio4_1_0_ from journal_operation operation0_ where operation0_.operationId=?
+2021-11-07 15:27:03,208 DEBUG o.h.l.e.CascadeEntityLoader [main] Static select for action ACTION_REFRESH on entity ua.com.alevel.entity.Operation: select operation0_.operationId as operatio1_1_0_, operation0_.bank_account_id as bank_acc5_1_0_, operation0_.category_id as category6_1_0_, operation0_.value as value2_1_0_, operation0_.short_operation_description as short_op3_1_0_, operation0_.operation_time as operatio4_1_0_ from journal_operation operation0_ where operation0_.operationId=?
+2021-11-07 15:27:03,211 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7e87ef9e]
+2021-11-07 15:27:03,211 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e3b0369]
+2021-11-07 15:27:03,212 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountExpiredEnd
+2021-11-07 15:27:03,212 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : bankAccountNumber
+2021-11-07 15:27:03,212 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : nameOfTheFinanceInstitution
+2021-11-07 15:27:03,212 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operations
+2021-11-07 15:27:03,213 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@766a52f5]
+2021-11-07 15:27:03,213 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4342c13]
+2021-11-07 15:27:03,213 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : totalAmountValue
+2021-11-07 15:27:03,213 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : users
+2021-11-07 15:27:03,213 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Property path deemed to be circular : users
+2021-11-07 15:27:03,213 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,215 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,216 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(collection=ua.com.alevel.entity.User.bankAccount)
+    - Returns
+       - CollectionReturnImpl(collection=ua.com.alevel.entity.User.bankAccount, querySpaceUid=<gen:0>, path=[ua.com.alevel.entity.User.bankAccount])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.BankAccount, querySpaceUid=<gen:1>, path=[ua.com.alevel.entity.User.bankAccount].<elements>)
+             - CollectionAttributeFetchImpl(collection=ua.com.alevel.entity.BankAccount.operations, querySpaceUid=<gen:2>, path=[ua.com.alevel.entity.User.bankAccount].<elements>.operations)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:3>, path=[ua.com.alevel.entity.User.bankAccount].<elements>.operations.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ua.com.alevel.entity.User.bankAccount)
+          - SQL table alias mapping - bankaccoun0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id6_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - bankacco1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=ua.com.alevel.entity.BankAccount)
+                - SQL table alias mapping - bankaccoun0_
+                - alias suffix - 1_
+                - suffixed key columns - {bankacco1_0_1_}
+
+2021-11-07 15:27:03,216 DEBUG o.h.l.c.p.CollectionLoader [main] Static select for collection ua.com.alevel.entity.User.bankAccount: select bankaccoun0_.user_id as user_id6_0_0_, bankaccoun0_.bankAccountId as bankacco1_0_0_, bankaccoun0_.bankAccountId as bankacco1_0_1_, bankaccoun0_.account_expired_end as account_2_0_1_, bankaccoun0_.account_number as account_3_0_1_, bankaccoun0_.name_finance_institution as name_fin4_0_1_, bankaccoun0_.total_amount_value as total_am5_0_1_, bankaccoun0_.user_id as user_id6_0_1_ from bank_account_data bankaccoun0_ where bankaccoun0_.user_id=?
+2021-11-07 15:27:03,216 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6f9e08d4]
+2021-11-07 15:27:03,217 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@390037e7]
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : account
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Property path deemed to be circular : account
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : category
+2021-11-07 15:27:03,217 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6002e944]
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : incomeValue
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationDescription
+2021-11-07 15:27:03,217 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : operationTime
+2021-11-07 15:27:03,217 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-11-07 15:27:03,217 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-11-07 15:27:03,217 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(collection=ua.com.alevel.entity.BankAccount.operations)
+    - Returns
+       - CollectionReturnImpl(collection=ua.com.alevel.entity.BankAccount.operations, querySpaceUid=<gen:0>, path=[ua.com.alevel.entity.BankAccount.operations])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=ua.com.alevel.entity.Operation, querySpaceUid=<gen:1>, path=[ua.com.alevel.entity.BankAccount.operations].<elements>)
+             - EntityAttributeFetchImpl(entity=ua.com.alevel.entity.Category, querySpaceUid=<gen:2>, path=[ua.com.alevel.entity.BankAccount.operations].<elements>.category)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ua.com.alevel.entity.BankAccount.operations)
+          - SQL table alias mapping - operations0_
+          - alias suffix - 0_
+          - suffixed key columns - {bank_acc5_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - operatio1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=ua.com.alevel.entity.Operation)
+                - SQL table alias mapping - operations0_
+                - alias suffix - 1_
+                - suffixed key columns - {operatio1_1_1_}
+
+2021-11-07 15:27:03,217 DEBUG o.h.l.c.p.CollectionLoader [main] Static select for collection ua.com.alevel.entity.BankAccount.operations: select operations0_.bank_account_id as bank_acc5_1_0_, operations0_.operationId as operatio1_1_0_, operations0_.operationId as operatio1_1_1_, operations0_.bank_account_id as bank_acc5_1_1_, operations0_.category_id as category6_1_1_, operations0_.value as value2_1_1_, operations0_.short_operation_description as short_op3_1_1_, operations0_.operation_time as operatio4_1_1_ from journal_operation operations0_ where operations0_.bank_account_id=?
+2021-11-07 15:27:03,235 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,235 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum ua.com.alevel.dto.CategoryType
+2021-11-07 15:27:03,250 INFO o.h.r.t.b.j.i.DdlTransactionIsolatorNonJtaImpl [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@64ae105d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-07 15:27:03,273 DEBUG o.h.m.Table [main] No alter strings for table : bank_account_data
+2021-11-07 15:27:03,273 DEBUG o.h.m.Table [main] No alter strings for table : journal_operation
+2021-11-07 15:27:03,273 DEBUG o.h.m.Table [main] No alter strings for table : type_category
+2021-11-07 15:27:03,273 DEBUG o.h.m.Table [main] No alter strings for table : user_data
+2021-11-07 15:27:03,325 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named HQL queries
+2021-11-07 15:27:03,325 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named SQL queries
+2021-11-07 15:27:03,334 DEBUG o.h.i.SessionFactoryRegistry [main] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6da4feeb
+2021-11-07 15:27:03,336 DEBUG o.h.i.SessionFactoryRegistry [main] Registering SessionFactory: 900a233b-b1cf-42ad-ace6-346da426641e (<unnamed>)
+2021-11-07 15:27:03,336 DEBUG o.h.i.SessionFactoryRegistry [main] Not binding SessionFactory to JNDI, no JNDI name configured
+2021-11-07 15:27:03,380 DEBUG o.h.s.i.StatisticsInitiator [main] Statistics initialized [enabled=false]
+2021-11-07 15:27:03,392 DEBUG o.h.h.i.QueryTranslatorFactoryInitiator [main] QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@38a4e2b0
+2021-11-07 15:27:03,409 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] parse() - HQL: FROM ua.com.alevel.entity.Category 
+2021-11-07 15:27:03,413 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:03,420 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'FROM'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[IDENT] Node: 'ua'
+                |  |  |  \-[IDENT] Node: 'com'
+                |  |  \-[IDENT] Node: 'alevel'
+                |  \-[IDENT] Node: 'entity'
+                \-[IDENT] Node: 'Category'
+
+2021-11-07 15:27:03,435 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select << begin [level=1, statement=select]
+2021-11-07 15:27:03,443 DEBUG o.h.h.i.a.t.FromElement [main] FromClause{level=1} : ua.com.alevel.entity.Category (<no alias>) -> category0_
+2021-11-07 15:27:03,443 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select : finishing up [level=1, statement=select]
+2021-11-07 15:27:03,443 DEBUG o.h.h.i.a.HqlSqlWalker [main] processQuery() :  ( SELECT ( FromClause{level=1} type_category category0_ ) )
+2021-11-07 15:27:03,447 DEBUG o.h.h.i.a.HqlSqlWalker [main] Derived SELECT clause created.
+2021-11-07 15:27:03,450 DEBUG o.h.h.i.a.u.JoinProcessor [main] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Category): [type_category]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.Category)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-11-07 15:27:03,453 DEBUG o.h.h.i.a.u.JoinProcessor [main] Using FROM fragment [type_category category0_]
+2021-11-07 15:27:03,453 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select >> end [level=1, statement=select]
+2021-11-07 15:27:03,453 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (type_category)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'category0_.categoryId as category1_2_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=type_category,tableAlias=category0_,origin=null,columns={,className=ua.com.alevel.entity.Category}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'category0_.category as category2_2_, category0_.category_type as category3_2_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[category0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'type_category category0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=type_category,tableAlias=category0_,origin=null,columns={,className=ua.com.alevel.entity.Category}}
+
+2021-11-07 15:27:03,454 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:03,458 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] HQL: FROM ua.com.alevel.entity.Category 
+2021-11-07 15:27:03,458 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] SQL: select category0_.categoryId as category1_2_, category0_.category as category2_2_, category0_.category_type as category3_2_ from type_category category0_
+2021-11-07 15:27:03,458 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:03,467 DEBUG o.h.e.j.s.SqlStatementLogger [main] 
+    select
+        category0_.categoryId as category1_2_,
+        category0_.category as category2_2_,
+        category0_.category_type as category3_2_ 
+    from
+        type_category category0_
+2021-11-07 15:27:03,471 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-11-07 15:27:03,474 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,480 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 1
+2021-11-07 15:27:03,480 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,480 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 2
+2021-11-07 15:27:03,480 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,480 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 3
+2021-11-07 15:27:03,481 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,481 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 4
+2021-11-07 15:27:03,481 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,482 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 5
+2021-11-07 15:27:03,482 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,482 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 6
+2021-11-07 15:27:03,483 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,483 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 7
+2021-11-07 15:27:03,483 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,483 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 8
+2021-11-07 15:27:03,484 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,484 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 9
+2021-11-07 15:27:03,484 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,485 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 10
+2021-11-07 15:27:03,485 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,485 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 11
+2021-11-07 15:27:03,485 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,485 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 12
+2021-11-07 15:27:03,485 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,485 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 13
+2021-11-07 15:27:03,486 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,486 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 14
+2021-11-07 15:27:03,486 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,486 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 15
+2021-11-07 15:27:03,486 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 16
+2021-11-07 15:27:03,487 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 17
+2021-11-07 15:27:03,487 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 18
+2021-11-07 15:27:03,487 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 19
+2021-11-07 15:27:03,487 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 20
+2021-11-07 15:27:03,487 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,487 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 21
+2021-11-07 15:27:03,488 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,488 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 22
+2021-11-07 15:27:03,488 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,488 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 23
+2021-11-07 15:27:03,488 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,488 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 24
+2021-11-07 15:27:03,488 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,490 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,490 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CAR
+2021-11-07 15:27:03,491 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,491 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,491 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = BUSINESS
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CHARITY, HELP, GIFTS
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOUSEHOLD APPLIANCES, COMPUTER, CONSUMABLES
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,492 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CHILDREN
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = PETS
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HEALTH AND BEAUT
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,493 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MORTGAGES, DEBTS, LOANS
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = APARTMENT AND COMMUNICATIONS
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = TAX AND INSURANCE
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,494 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = EDUCATION
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CLOTHING AND ACCESSORIES
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = RECREATION AND ENTERTAINMENT
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,495 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MEALS
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MISCELLANEOUS
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = RENOVATION AND FURNITURE
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,496 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOUSEHOLD GOODS
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = TRANSPORT
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,497 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOBBY
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = PRESENTS
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = SALARY
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,498 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = THE PRIZE
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,499 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = SECOND WORK SALARY
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = INTEREST ON DEPOSITS
+2021-11-07 15:27:03,500 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = OTHER
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,501 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,504 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-11-07 15:27:03,508 DEBUG o.h.e.j.s.SqlStatementLogger [main] 
+    select
+        category0_.categoryId as category1_2_,
+        category0_.category as category2_2_,
+        category0_.category_type as category3_2_ 
+    from
+        type_category category0_
+2021-11-07 15:27:03,509 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-11-07 15:27:03,509 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,509 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 1
+2021-11-07 15:27:03,509 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,510 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 2
+2021-11-07 15:27:03,510 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,510 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 3
+2021-11-07 15:27:03,510 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,510 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 4
+2021-11-07 15:27:03,510 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,511 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 5
+2021-11-07 15:27:03,511 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,511 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 6
+2021-11-07 15:27:03,511 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,511 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 7
+2021-11-07 15:27:03,512 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,512 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 8
+2021-11-07 15:27:03,512 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,512 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 9
+2021-11-07 15:27:03,512 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,513 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 10
+2021-11-07 15:27:03,513 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,513 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 11
+2021-11-07 15:27:03,513 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,513 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 12
+2021-11-07 15:27:03,514 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,514 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 13
+2021-11-07 15:27:03,514 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,514 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 14
+2021-11-07 15:27:03,514 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,515 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 15
+2021-11-07 15:27:03,515 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,516 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 16
+2021-11-07 15:27:03,516 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,516 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 17
+2021-11-07 15:27:03,516 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,517 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 18
+2021-11-07 15:27:03,517 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,517 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 19
+2021-11-07 15:27:03,518 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,518 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 20
+2021-11-07 15:27:03,518 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,518 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 21
+2021-11-07 15:27:03,518 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,518 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 22
+2021-11-07 15:27:03,518 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,518 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 23
+2021-11-07 15:27:03,518 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,518 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 24
+2021-11-07 15:27:03,519 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CAR
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#1]
+2021-11-07 15:27:03,519 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = BUSINESS
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#2]
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CHARITY, HELP, GIFTS
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#3]
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOUSEHOLD APPLIANCES, COMPUTER, CONSUMABLES
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,520 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#4]
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CHILDREN
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#5]
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = PETS
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#6]
+2021-11-07 15:27:03,521 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HEALTH AND BEAUT
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#7]
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MORTGAGES, DEBTS, LOANS
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#8]
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,522 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = APARTMENT AND COMMUNICATIONS
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#9]
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = TAX AND INSURANCE
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#10]
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = EDUCATION
+2021-11-07 15:27:03,523 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#11]
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = CLOTHING AND ACCESSORIES
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#12]
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = RECREATION AND ENTERTAINMENT
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,524 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#13]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MEALS
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#14]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = MISCELLANEOUS
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#15]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = RENOVATION AND FURNITURE
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#16]
+2021-11-07 15:27:03,525 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOUSEHOLD GOODS
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#17]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = TRANSPORT
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#18]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = HOBBY
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = EXPENSE
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#19]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,526 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = PRESENTS
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#20]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = SALARY
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#21]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = THE PRIZE
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#22]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = SECOND WORK SALARY
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,527 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#23]
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = INTEREST ON DEPOSITS
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#24]
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `category` : value = OTHER
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`category`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `categoryType` : value = INCOME
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`categoryType`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:03,528 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.Category#25]
+2021-11-07 15:27:03,529 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-11-07 15:27:11,093 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] parse() - HQL: FROM ua.com.alevel.entity.User u where u.userEmail =: userEmail AND u.userTelephoneNumber =: userTelephoneNumber AND u.userPassword =: userPassword
+2021-11-07 15:27:11,095 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:11,095 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'FROM'
+    |     \-[RANGE] Node: 'RANGE'
+    |        +-[DOT] Node: '.'
+    |        |  +-[DOT] Node: '.'
+    |        |  |  +-[DOT] Node: '.'
+    |        |  |  |  +-[DOT] Node: '.'
+    |        |  |  |  |  +-[IDENT] Node: 'ua'
+    |        |  |  |  |  \-[IDENT] Node: 'com'
+    |        |  |  |  \-[IDENT] Node: 'alevel'
+    |        |  |  \-[IDENT] Node: 'entity'
+    |        |  \-[IDENT] Node: 'User'
+    |        \-[ALIAS] Node: 'u'
+    \-[WHERE] Node: 'where'
+       \-[AND] Node: 'AND'
+          +-[AND] Node: 'AND'
+          |  +-[EQ] Node: '='
+          |  |  +-[DOT] Node: '.'
+          |  |  |  +-[IDENT] Node: 'u'
+          |  |  |  \-[IDENT] Node: 'userEmail'
+          |  |  \-[COLON] Node: ':'
+          |  |     \-[IDENT] Node: 'userEmail'
+          |  \-[EQ] Node: '='
+          |     +-[DOT] Node: '.'
+          |     |  +-[IDENT] Node: 'u'
+          |     |  \-[IDENT] Node: 'userTelephoneNumber'
+          |     \-[COLON] Node: ':'
+          |        \-[IDENT] Node: 'userTelephoneNumber'
+          \-[EQ] Node: '='
+             +-[DOT] Node: '.'
+             |  +-[IDENT] Node: 'u'
+             |  \-[IDENT] Node: 'userPassword'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'userPassword'
+
+2021-11-07 15:27:11,096 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select << begin [level=1, statement=select]
+2021-11-07 15:27:11,096 DEBUG o.h.h.i.a.t.FromElement [main] FromClause{level=1} : ua.com.alevel.entity.User (u) -> user0_
+2021-11-07 15:27:11,097 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u -> user0_.id
+2021-11-07 15:27:11,098 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : userEmail -> org.hibernate.type.StringType@452c8a40
+2021-11-07 15:27:11,098 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u.userEmail -> user0_.email
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u -> user0_.id
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : userTelephoneNumber -> org.hibernate.type.StringType@452c8a40
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u.userTelephoneNumber -> user0_.telephone_number
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u -> user0_.id
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : userPassword -> org.hibernate.type.StringType@452c8a40
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : u.userPassword -> user0_.user_password
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select : finishing up [level=1, statement=select]
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.HqlSqlWalker [main] processQuery() :  ( SELECT ( FromClause{level=1} user_data user0_ ) ( where ( AND ( AND ( = ( user0_.email user0_.id userEmail ) ? ) ( = ( user0_.telephone_number user0_.id userTelephoneNumber ) ? ) ) ( = ( user0_.user_password user0_.id userPassword ) ? ) ) ) )
+2021-11-07 15:27:11,099 DEBUG o.h.h.i.a.HqlSqlWalker [main] Derived SELECT clause created.
+2021-11-07 15:27:11,100 DEBUG o.h.h.i.a.u.JoinProcessor [main] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user_data]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-SqlNode
+          +-SqlNode
+          |  +-BinaryLogicOperatorNode
+          |  |  +-DotNode
+          |  |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+          |  |  | path: u.userEmail
+          |  |  |  +-IdentNode
+          |  |  |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+          |  |  |  | originalText: u
+          |  |  |  \-IdentNode
+          |  |  |    persister: null
+          |  |  |    originalText: userEmail
+          |  |  \-ParameterNode
+          |  \-BinaryLogicOperatorNode
+          |     +-DotNode
+          |     | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+          |     | path: u.userTelephoneNumber
+          |     |  +-IdentNode
+          |     |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+          |     |  | originalText: u
+          |     |  \-IdentNode
+          |     |    persister: null
+          |     |    originalText: userTelephoneNumber
+          |     \-ParameterNode
+          \-BinaryLogicOperatorNode
+             +-DotNode
+             | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+             | path: u.userPassword
+             |  +-IdentNode
+             |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.User)
+             |  | originalText: u
+             |  \-IdentNode
+             |    persister: null
+             |    originalText: userPassword
+             \-ParameterNode
+
+2021-11-07 15:27:11,100 DEBUG o.h.h.i.a.u.JoinProcessor [main] Using FROM fragment [user_data user0_]
+2021-11-07 15:27:11,100 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select >> end [level=1, statement=select]
+2021-11-07 15:27:11,100 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user_data)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id1_3_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=u,role=null,tableName=user_data,tableAlias=user0_,origin=null,columns={,className=ua.com.alevel.entity.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.email as email2_3_, user0_.first_name as first_na3_3_, user0_.last_name as last_nam4_3_, user0_.user_password as user_pas5_3_, user0_.telephone_number as telephon6_3_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[u], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user_data user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=u,role=null,tableName=user_data,tableAlias=user0_,origin=null,columns={,className=ua.com.alevel.entity.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[AND] SqlNode: 'AND'
+          +-[AND] SqlNode: 'AND'
+          |  +-[EQ] BinaryLogicOperatorNode: '='
+          |  |  +-[DOT] DotNode: 'user0_.email' {propertyName=userEmail,dereferenceType=PRIMITIVE,getPropertyPath=userEmail,path=u.userEmail,tableAlias=user0_,className=ua.com.alevel.entity.User,classAlias=u}
+          |  |  |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=u, className=ua.com.alevel.entity.User, tableAlias=user0_}
+          |  |  |  \-[IDENT] IdentNode: 'userEmail' {originalText=userEmail}
+          |  |  \-[NAMED_PARAM] ParameterNode: '?' {name=userEmail, expectedType=org.hibernate.type.StringType@452c8a40}
+          |  \-[EQ] BinaryLogicOperatorNode: '='
+          |     +-[DOT] DotNode: 'user0_.telephone_number' {propertyName=userTelephoneNumber,dereferenceType=PRIMITIVE,getPropertyPath=userTelephoneNumber,path=u.userTelephoneNumber,tableAlias=user0_,className=ua.com.alevel.entity.User,classAlias=u}
+          |     |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=u, className=ua.com.alevel.entity.User, tableAlias=user0_}
+          |     |  \-[IDENT] IdentNode: 'userTelephoneNumber' {originalText=userTelephoneNumber}
+          |     \-[NAMED_PARAM] ParameterNode: '?' {name=userTelephoneNumber, expectedType=org.hibernate.type.StringType@452c8a40}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'user0_.user_password' {propertyName=userPassword,dereferenceType=PRIMITIVE,getPropertyPath=userPassword,path=u.userPassword,tableAlias=user0_,className=ua.com.alevel.entity.User,classAlias=u}
+             |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=u, className=ua.com.alevel.entity.User, tableAlias=user0_}
+             |  \-[IDENT] IdentNode: 'userPassword' {originalText=userPassword}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=userPassword, expectedType=org.hibernate.type.StringType@452c8a40}
+
+2021-11-07 15:27:11,100 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:11,101 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] HQL: FROM ua.com.alevel.entity.User u where u.userEmail =: userEmail AND u.userTelephoneNumber =: userTelephoneNumber AND u.userPassword =: userPassword
+2021-11-07 15:27:11,101 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] SQL: select user0_.id as id1_3_, user0_.email as email2_3_, user0_.first_name as first_na3_3_, user0_.last_name as last_nam4_3_, user0_.user_password as user_pas5_3_, user0_.telephone_number as telephon6_3_ from user_data user0_ where user0_.email=? and user0_.telephone_number=? and user0_.user_password=?
+2021-11-07 15:27:11,101 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:11,103 DEBUG o.h.e.j.s.SqlStatementLogger [main] 
+    select
+        user0_.id as id1_3_,
+        user0_.email as email2_3_,
+        user0_.first_name as first_na3_3_,
+        user0_.last_name as last_nam4_3_,
+        user0_.user_password as user_pas5_3_,
+        user0_.telephone_number as telephon6_3_ 
+    from
+        user_data user0_ 
+    where
+        user0_.email=? 
+        and user0_.telephone_number=? 
+        and user0_.user_password=?
+2021-11-07 15:27:11,105 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-11-07 15:27:11,105 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.User#1]
+2021-11-07 15:27:11,105 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.User#1]
+2021-11-07 15:27:11,106 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccount` : value = NOT NULL COLLECTION
+2021-11-07 15:27:11,106 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccount`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `userEmail` : value = vadim
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`userEmail`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `userFirstName` : value = vadim
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`userFirstName`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `userLastName` : value = vadim
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`userLastName`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `userPassword` : value = test
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`userPassword`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `userTelephoneNumber` : value = 1
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`userTelephoneNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:11,111 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.User#1]
+2021-11-07 15:27:11,111 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-11-07 15:27:18,582 INFO u.c.a.s.i.BankAccountServiceImpl [main] Start scanning all bank accounts
+2021-11-07 15:27:18,582 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] parse() - HQL: FROM ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:18,583 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:18,583 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'FROM'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[IDENT] Node: 'ua'
+                |  |  |  \-[IDENT] Node: 'com'
+                |  |  \-[IDENT] Node: 'alevel'
+                |  \-[IDENT] Node: 'entity'
+                \-[IDENT] Node: 'BankAccount'
+
+2021-11-07 15:27:18,583 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select << begin [level=1, statement=select]
+2021-11-07 15:27:18,584 DEBUG o.h.h.i.a.t.FromElement [main] FromClause{level=1} : ua.com.alevel.entity.BankAccount (<no alias>) -> bankaccoun0_
+2021-11-07 15:27:18,584 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select : finishing up [level=1, statement=select]
+2021-11-07 15:27:18,584 DEBUG o.h.h.i.a.HqlSqlWalker [main] processQuery() :  ( SELECT ( FromClause{level=1} bank_account_data bankaccoun0_ ) )
+2021-11-07 15:27:18,584 DEBUG o.h.h.i.a.HqlSqlWalker [main] Derived SELECT clause created.
+2021-11-07 15:27:18,584 DEBUG o.h.h.i.a.u.JoinProcessor [main] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity BankAccount): [bank_account_data]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.BankAccount)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.u.JoinProcessor [main] Using FROM fragment [bank_account_data bankaccoun0_]
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select >> end [level=1, statement=select]
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (bank_account_data)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'bankaccoun0_.bankAccountId as bankacco1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=bank_account_data,tableAlias=bankaccoun0_,origin=null,columns={,className=ua.com.alevel.entity.BankAccount}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'bankaccoun0_.account_expired_end as account_2_0_, bankaccoun0_.account_number as account_3_0_, bankaccoun0_.name_finance_institution as name_fin4_0_, bankaccoun0_.total_amount_value as total_am5_0_, bankaccoun0_.user_id as user_id6_0_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[bankaccoun0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'bank_account_data bankaccoun0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=bank_account_data,tableAlias=bankaccoun0_,origin=null,columns={,className=ua.com.alevel.entity.BankAccount}}
+
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] HQL: FROM ua.com.alevel.entity.BankAccount
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] SQL: select bankaccoun0_.bankAccountId as bankacco1_0_, bankaccoun0_.account_expired_end as account_2_0_, bankaccoun0_.account_number as account_3_0_, bankaccoun0_.name_finance_institution as name_fin4_0_, bankaccoun0_.total_amount_value as total_am5_0_, bankaccoun0_.user_id as user_id6_0_ from bank_account_data bankaccoun0_
+2021-11-07 15:27:18,585 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:18,586 DEBUG o.h.e.j.s.SqlStatementLogger [main] 
+    select
+        bankaccoun0_.bankAccountId as bankacco1_0_,
+        bankaccoun0_.account_expired_end as account_2_0_,
+        bankaccoun0_.account_number as account_3_0_,
+        bankaccoun0_.name_finance_institution as name_fin4_0_,
+        bankaccoun0_.total_amount_value as total_am5_0_,
+        bankaccoun0_.user_id as user_id6_0_ 
+    from
+        bank_account_data bankaccoun0_
+2021-11-07 15:27:18,590 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-11-07 15:27:18,590 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:18,592 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 1
+2021-11-07 15:27:18,592 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#2]
+2021-11-07 15:27:18,593 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 2
+2021-11-07 15:27:18,593 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#3]
+2021-11-07 15:27:18,593 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 3
+2021-11-07 15:27:18,593 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#4]
+2021-11-07 15:27:18,594 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 4
+2021-11-07 15:27:18,594 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#5]
+2021-11-07 15:27:18,594 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-28T19:00:00Z
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = 111222333
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = privat
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 32523
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 1
+2021-11-07 15:27:18,595 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#2]
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-28T19:00:00Z
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = 222333444
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = privat
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:18,602 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 1
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 1
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#2]
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#3]
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-28T19:00:00Z
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = 555
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = privat
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,603 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 10
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 2
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#3]
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#4]
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-28T19:00:00Z
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = 98989898
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = otp
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 100
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,604 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 2
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#4]
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#5]
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-30T22:00:00Z
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = mari
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = ter
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 3
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 3
+2021-11-07 15:27:18,605 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:18,606 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#5]
+2021-11-07 15:27:18,606 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-11-07 15:27:26,839 INFO u.c.a.s.i.BankAccountServiceImpl [main] Start finding bank account
+2021-11-07 15:27:26,839 DEBUG u.c.a.d.i.BankAccountDaoImpl [main] Find bank account by id
+2021-11-07 15:27:26,840 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] parse() - HQL: FROM ua.com.alevel.entity.BankAccount ba WHERE ba.id =: id
+2021-11-07 15:27:26,840 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:26,841 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'FROM'
+    |     \-[RANGE] Node: 'RANGE'
+    |        +-[DOT] Node: '.'
+    |        |  +-[DOT] Node: '.'
+    |        |  |  +-[DOT] Node: '.'
+    |        |  |  |  +-[DOT] Node: '.'
+    |        |  |  |  |  +-[IDENT] Node: 'ua'
+    |        |  |  |  |  \-[IDENT] Node: 'com'
+    |        |  |  |  \-[IDENT] Node: 'alevel'
+    |        |  |  \-[IDENT] Node: 'entity'
+    |        |  \-[IDENT] Node: 'BankAccount'
+    |        \-[ALIAS] Node: 'ba'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'ba'
+          |  \-[IDENT] Node: 'id'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'id'
+
+2021-11-07 15:27:26,841 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select << begin [level=1, statement=select]
+2021-11-07 15:27:26,842 DEBUG o.h.h.i.a.t.FromElement [main] FromClause{level=1} : ua.com.alevel.entity.BankAccount (ba) -> bankaccoun0_
+2021-11-07 15:27:26,843 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : ba -> bankaccoun0_.bankAccountId
+2021-11-07 15:27:26,843 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : id -> org.hibernate.type.LongType@304b9f1a
+2021-11-07 15:27:26,843 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : ba.id -> bankaccoun0_.bankAccountId
+2021-11-07 15:27:26,843 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select : finishing up [level=1, statement=select]
+2021-11-07 15:27:26,843 DEBUG o.h.h.i.a.HqlSqlWalker [main] processQuery() :  ( SELECT ( FromClause{level=1} bank_account_data bankaccoun0_ ) ( WHERE ( = ( bankaccoun0_.bankAccountId bankaccoun0_.bankAccountId id ) ? ) ) )
+2021-11-07 15:27:26,844 DEBUG o.h.h.i.a.HqlSqlWalker [main] Derived SELECT clause created.
+2021-11-07 15:27:26,844 DEBUG o.h.h.i.a.u.JoinProcessor [main] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity BankAccount): [bank_account_data]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.BankAccount)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(ua.com.alevel.entity.BankAccount)
+          | path: ba.id
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(ua.com.alevel.entity.BankAccount)
+          |  | originalText: ba
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: id
+          \-ParameterNode
+
+2021-11-07 15:27:26,844 DEBUG o.h.h.i.a.u.JoinProcessor [main] Using FROM fragment [bank_account_data bankaccoun0_]
+2021-11-07 15:27:26,844 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select >> end [level=1, statement=select]
+2021-11-07 15:27:26,844 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (bank_account_data)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'bankaccoun0_.bankAccountId as bankacco1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=ba,role=null,tableName=bank_account_data,tableAlias=bankaccoun0_,origin=null,columns={,className=ua.com.alevel.entity.BankAccount}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'bankaccoun0_.account_expired_end as account_2_0_, bankaccoun0_.account_number as account_3_0_, bankaccoun0_.name_finance_institution as name_fin4_0_, bankaccoun0_.total_amount_value as total_am5_0_, bankaccoun0_.user_id as user_id6_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[ba], fromElementByTableAlias=[bankaccoun0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'bank_account_data bankaccoun0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=ba,role=null,tableName=bank_account_data,tableAlias=bankaccoun0_,origin=null,columns={,className=ua.com.alevel.entity.BankAccount}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'bankaccoun0_.bankAccountId' {propertyName=id,dereferenceType=PRIMITIVE,getPropertyPath=id,path=ba.id,tableAlias=bankaccoun0_,className=ua.com.alevel.entity.BankAccount,classAlias=ba}
+          |  +-[ALIAS_REF] IdentNode: 'bankaccoun0_.bankAccountId' {alias=ba, className=ua.com.alevel.entity.BankAccount, tableAlias=bankaccoun0_}
+          |  \-[IDENT] IdentNode: 'id' {originalText=id}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=id, expectedType=org.hibernate.type.LongType@304b9f1a}
+
+2021-11-07 15:27:26,845 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:26,845 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] HQL: FROM ua.com.alevel.entity.BankAccount ba WHERE ba.id =: id
+2021-11-07 15:27:26,845 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] SQL: select bankaccoun0_.bankAccountId as bankacco1_0_, bankaccoun0_.account_expired_end as account_2_0_, bankaccoun0_.account_number as account_3_0_, bankaccoun0_.name_finance_institution as name_fin4_0_, bankaccoun0_.total_amount_value as total_am5_0_, bankaccoun0_.user_id as user_id6_0_ from bank_account_data bankaccoun0_ where bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:26,845 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-11-07 15:27:26,846 DEBUG o.h.e.j.s.SqlStatementLogger [main] 
+    select
+        bankaccoun0_.bankAccountId as bankacco1_0_,
+        bankaccoun0_.account_expired_end as account_2_0_,
+        bankaccoun0_.account_number as account_3_0_,
+        bankaccoun0_.name_finance_institution as name_fin4_0_,
+        bankaccoun0_.total_amount_value as total_am5_0_,
+        bankaccoun0_.user_id as user_id6_0_ 
+    from
+        bank_account_data bankaccoun0_ 
+    where
+        bankaccoun0_.bankAccountId=?
+2021-11-07 15:27:26,847 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-11-07 15:27:26,848 DEBUG o.h.l.Loader [main] Result row: EntityKey[ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountExpiredEnd` : value = 2021-10-28T19:00:00Z
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountExpiredEnd`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `bankAccountNumber` : value = 111222333
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`bankAccountNumber`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `nameOfTheFinanceInstitution` : value = privat
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`nameOfTheFinanceInstitution`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `operations` : value = NOT NULL COLLECTION
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`operations`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `totalAmountValue` : value = 32523
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`totalAmountValue`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `users` : value = 1
+2021-11-07 15:27:26,848 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`users`)  - enhanced for lazy-loading? - false
+2021-11-07 15:27:26,849 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [ua.com.alevel.entity.BankAccount#1]
+2021-11-07 15:27:26,849 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-11-07 15:27:32,525 DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl$PooledConnections [Hibernate Connection Pool Validation Thread] Connection pool now considered primed; min-size will be maintained
